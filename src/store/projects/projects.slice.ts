@@ -1,16 +1,8 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 import projects from '../../static/projects.json'
+import { IProject } from '../../models';
 
-interface IProject {
-  title: string;
-  subtitle: string;
-  technologies: string[];
-  previewUrl: string;
-  date: string;
-  figmaLink: string;
-  GithubLink: string;
-  link: string;
-}
+
 
 interface IProjectsState {
   projects:Array<IProject>

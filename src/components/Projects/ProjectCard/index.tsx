@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { MouseEventHandler } from 'react'
+import { IProject } from '../../../models'
 
-const ProjectCard = () => {
+
+const ProjectCard = ({ project, onClick }: { project: IProject, onClick: MouseEventHandler }) => {
+  
   return (
-    <div>ProjectCard</div>
+    <div onClick={onClick}>aaa</div>
   )
 }
 
