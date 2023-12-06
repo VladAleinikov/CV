@@ -1,3 +1,7 @@
+@import './base/fonts';
 @import './base/colors';
-@import './base/normolize';
 @import './base/mixins';
+@import './base/normolize';
+@import './components/typography';
+@import './layout/aside';
+@import './layout/nav';

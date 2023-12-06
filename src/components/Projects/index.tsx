@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import { useAppSelector } from '../../hooks/redux'
 import ProjectCard from './ProjectCard'
 import ProjectModal from './ProjectModal'
+import Filter from './Filter/index';
 
 const Projects = () => {
   const { projects } = useAppSelector(state => state.projects)
   const [showModal, setShowModal] = useState<number>(-1);
+  const [filter, setFilter] = useState<string>('none');
 
   const projectCardHandler = (id: number) => {
     return (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -14,12 +16,13 @@ const Projects = () => {
     }
   }
   return (
-    <>
+    <div className='projects-container'>
+      <Filter/>
       {projects.map((project, id) =>
         <ProjectCard key={id} project={project} onClick={projectCardHandler(id)} />)}
       
       {showModal >= 0 && <ProjectModal project={projects[showModal]}/>}
-    </>
+    </div>
   )
 }
 
