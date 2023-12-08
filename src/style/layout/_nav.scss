@@ -1,0 +1,28 @@
+.aside__navigation {
+      position: relative;
+      .navigation__links {
+            @include flex(column, start, start, 10px);
+
+            .links__link {
+                  transition: 0.2s;
+                  a {
+                        font-size: 1.2rem;
+                  }
+                  &.active {
+                        a {
+                              color: $accent-2;
+                        }
+                  }
+            }
+      }
+      .navigation__line {
+            content: "";
+            position: absolute;
+            left: -15px;
+            top: 0;
+            height: 4px;
+            width: 15px;
+            background: $accent-2;
+            transition: 0.2s;
+      }
+}
