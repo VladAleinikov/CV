@@ -17,11 +17,13 @@ const Projects = () => {
   }
   return (
     <div className='projects-container'>
-      <Filter/>
-      {projects.map((project, id) =>
-        <ProjectCard key={id} project={project} onClick={projectCardHandler(id)} />)}
-      
-      {showModal >= 0 && <ProjectModal project={projects[showModal]}/>}
+      <Filter />
+      <div className="projects__list">
+        {projects.map((project, id) =>
+          <ProjectCard key={id} project={project} onClick={projectCardHandler(id)} />)}
+      </div>
+
+      {showModal >= 0 && <ProjectModal project={projects[showModal]} />}
     </div>
   )
 }

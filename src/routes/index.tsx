@@ -8,5 +8,6 @@ interface IRoutes {
 
 
 export const routes: IRoutes[] = [
-      { path: '/', element: <Portfolio /> }
+      { path: '/', element: <Portfolio /> },
+      { path: '/projects', element: <Portfolio /> }
 ]

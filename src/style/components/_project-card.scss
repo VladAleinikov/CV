@@ -1,0 +1,40 @@
+.projects__project-card{
+      @include flex(column, end, end);
+      position: relative;
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+
+      .project-card__img{
+            position: absolute;
+            z-index: 0;
+      }
+      .project-card__title,
+      .project-card__date,
+      .project-card__technologies{
+            z-index: 100;
+      }
+      .project-card__technologies{
+            margin-bottom: auto;
+            align-self: flex-start;
+      }
+      &::before,
+      &::after{
+            content: '';
+            position: absolute;
+            height: 150px;
+            width: 500px;
+            background: $backgroud-2;
+            z-index: 10;
+      }
+      &::before{
+            top: -90px;
+            left: -50px;
+            rotate: -15deg;
+      }
+      &::after{
+            bottom: -90px;
+            right: -50px;
+            rotate: -15deg;
+      }
+}
