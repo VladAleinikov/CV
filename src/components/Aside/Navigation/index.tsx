@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-  const links = [useRef(null), useRef(null), useRef(null), useRef(null)];
-  const line = useRef(null);
+  const links = [React.useRef<HTMLInputElement>(null), React.useRef<HTMLInputElement>(null), React.useRef<HTMLInputElement>(null), React.useRef<HTMLInputElement>(null)];
+  const line = React.useRef<HTMLInputElement>(null);
   const navLeaveHandler = (e: React.MouseEvent<HTMLElement>) => {
     links.map((link, i) => {
       link.current.style.transform = "translateX(0px)";
