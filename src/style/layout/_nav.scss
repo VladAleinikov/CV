@@ -9,6 +9,8 @@
                         font-size: 1.2rem;
                   }
                   &.active {
+                        transform: translateX(10px);
+                        
                         a {
                               color: $accent-2;
                         }
