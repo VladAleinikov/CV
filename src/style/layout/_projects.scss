@@ -1,0 +1,27 @@
+.projects {
+      position: relative;
+      padding-left: 40px;
+
+      .projects-container {
+            @include flex(column, start, start, 20px);
+            padding-bottom: 100px;
+            max-height: 80vh;
+            overflow-y: scroll;
+
+            .projects__list {
+                  width: 100%;
+                  @include flex(row, space-between, start, 50px);
+                  flex-wrap: wrap;
+            }
+      }
+      &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            z-index: 100;
+            background: linear-gradient(0deg, $backgroud, rgba($backgroud, 0%));
+      }
+}

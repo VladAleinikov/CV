@@ -17,8 +17,8 @@ const ProjectCard = ({ project, onClick }: { project: IProject, onClick: MouseEv
             {icons[technology as keyof typeof icons]}
           </li>)}
       </ul>
-      <h3 className="project-card__title">{title}</h3>
       <p className="project-card__date">{ParseDate(date)}</p>
+      <h3 className="project-card__title">{title}</h3>
     </div>
   )
 }
