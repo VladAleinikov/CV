@@ -4,7 +4,7 @@ import Filter from '../components/Projects/Filter';
 const Portfolio = () => {
   
   return (
-    <section className='projects'>
+    <section className='projects page'>
       <Projects/>
     </section>
   )

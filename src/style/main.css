@@ -34,9 +34,13 @@ body.hide {
   overflow: hidden;
 }
 
-main {
+#root {
   width: 100%;
+}
+
+main {
   max-width: 1400px;
+  min-width: 100vh;
   height: 80vh;
   padding: 20px;
   margin: auto;
@@ -72,6 +76,17 @@ a {
     font-size: 12px;
   }
 }
+.page {
+  position: relative;
+  width: 100%;
+  padding-left: 40px;
+}
+.page .container {
+  width: 100%;
+  padding: 20px;
+  max-height: 80vh;
+}
+
 h1 {
   font-family: "Hero", sans-serif;
   color: #e98074;
@@ -79,6 +94,14 @@ h1 {
   font-weight: 300;
   letter-spacing: 20px;
   opacity: 0.4;
+}
+
+h2 {
+  color: #e98074;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
 }
 
 .projects__project-card {
@@ -275,10 +298,16 @@ h1 {
   transition: 0.2s;
 }
 
-.projects {
-  position: relative;
-  padding-left: 40px;
+.in-developing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: unset;
 }
+
 .projects .projects-container {
   display: flex;
   flex-direction: column;

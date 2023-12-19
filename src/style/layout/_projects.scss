@@ -1,6 +1,4 @@
 .projects {
-      position: relative;
-      padding-left: 40px;
       
       .projects-container {
             @include flex(column, start, start, 20px);
