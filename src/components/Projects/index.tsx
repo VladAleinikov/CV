@@ -3,6 +3,7 @@ import { useAppSelector } from '../../hooks/redux'
 import ProjectCard from './ProjectCard'
 import ProjectModal from './ProjectModal'
 import Filter from './Filter/index';
+import Modal from '../Modal';
 
 const Projects = () => {
   const { projects } = useAppSelector(state => state.projects)
@@ -16,16 +17,25 @@ const Projects = () => {
     }
   }
   return (
-    <div className='projects-container'>
+    <div className="projects-container">
       <Filter />
       <div className="projects__list">
-        {projects.map((project, id) =>
-          <ProjectCard key={id} project={project} onClick={projectCardHandler(id)} />)}
+        {projects.map((project, id) => (
+          <ProjectCard
+            key={id}
+            project={project}
+            onClick={projectCardHandler(id)}
+          />
+        ))}
       </div>
 
-      {showModal >= 0 && <ProjectModal project={projects[showModal]} />}
+      {showModal >= 0 && (
+        <Modal setShowModal={setShowModal}>
+          <ProjectModal project={projects[showModal]} />
+        </Modal>
+      )}
     </div>
-  )
+  );
 }
 
 export default Projects
