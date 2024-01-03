@@ -13,7 +13,8 @@ const Filter = () => {
   return (
     <div className="projects__filter">
       <SelectOne
-        title="Сортировка"
+      name="sort"
+        title="Сортировка:"
         options={["По умолчанию", "Сначала новые", "Сначала старые"]}
         currentVal={filter.sort}
         selectEvent={(option: SortType) => {
@@ -21,7 +22,8 @@ const Filter = () => {
         }}
       />
       <SelectOne
-        title="Тип проекта"
+      name="type"
+        title="Фильтр:"
         options={["Всё", "Вёрстка", "Веб-приложение", "Pet-проект"]}
         currentVal={filter.type}
         selectEvent={(option: ProjectTypesType) => {
@@ -29,6 +31,7 @@ const Filter = () => {
         }}
       />
       <SelectAny
+        name="technologies"
         title="Технологии"
         options={technologies}
         selectedOptions={filter.technologies}

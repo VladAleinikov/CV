@@ -1,0 +1,92 @@
+.projects__filter {
+      width: 100%;
+      min-height: 50px;
+      @include flex(row, start, center, 20px);
+
+      .select__options,
+      .select-any__options {
+            border-radius: 5px;
+            background: $backgroud;
+            box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+            .options__option {
+                  margin: 0 5px;
+            }
+      }
+      .filter__select,
+      .filter__select-any {
+            @include flex($gap: 10px);
+
+            .options__option {
+                  position: relative;
+                  cursor: pointer;
+                  font-size: 0.6rem;
+
+                  &:after{
+                        content: '';
+                        position: absolute;
+                        bottom: -2px;
+                        left: 0;
+                        width: 0%;
+                        height: 2px;
+                        background: $text;
+                        transition: .5s;
+                  }     
+                  &:hover:after{
+                        width: 100%;
+                  }
+            }
+            .options__option.active {
+                  color: $accent-1;
+
+                  &::after{
+                        width: 100%;
+                        background: $accent-1;
+                  }
+            }
+      }
+      .filter__select-any {
+            @include flex($gap: 10px);
+
+            .select-any__selected-options {
+                  @include flex($gap: 5px);
+
+                  .selected-options__selected-option {
+                        cursor: pointer;
+                        padding: 5px;
+                        @include flex($gap: 5px);
+                        font-size: 0.6rem;
+                        border-radius: 10px;
+                        border: 1px solid rgba(34, 60, 80, 0.2);
+                        box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+                        transition: 0.5s;
+
+                        &:hover {
+                              transform: translateY(-2px);
+                              box-shadow: 0px 2px 2px -5px rgba(34, 60, 80, 0.6);
+                              border: 1px solid rgba($accent-1, 0.2);
+                              color: $accent-1;
+                        }
+                  }
+            }
+      }
+      .select__selected-value,
+      .selected-options__selected-option,
+      .select-any__title,
+      .filter__reset-filter {
+            cursor: pointer;
+            padding: 5px;
+            @include flex($gap: 5px);
+            font-size: 0.7rem;
+            border-bottom: 1px solid rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+            transition: 0.5s;
+
+            &:hover {
+                  transform: translateY(-2px);
+                  box-shadow: 0px 2px 2px -5px rgba(34, 60, 80, 0.6);
+                  border-bottom: 1px solid rgba($accent-1, 0.2);
+                  color: $accent-1;
+            }
+      }
+}

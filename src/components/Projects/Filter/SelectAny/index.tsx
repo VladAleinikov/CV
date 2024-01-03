@@ -1,5 +1,5 @@
-
 interface ISelectProps {
+  name: string;
   title: string;
   options: string[];
   selectedOptions: "Всё" | string[];
@@ -7,30 +7,35 @@ interface ISelectProps {
 }
 
 const SelectAny = ({
+  name,
   title,
   options,
   selectedOptions,
   selectEvent,
 }: ISelectProps) => {
   return (
-    <div className="filter__select">
-      <button className="select__title">{title}</button>
-      <div className="select__selected-options">
+    <div className="filter__select-any">
+      <button className="select-any__title" popovertarget={name + "__options"}>
+        {title}
+      </button>
+      <div className="select-any__selected-options">
         {typeof selectedOptions !== "string"
           ? selectedOptions.map((option, id) => (
-              <div className="selected-options__selected-option" key={id}>
-                <p>{option}</p>
-                <button
-                  className="selected-option__remove"
-                  onClick={() => selectEvent(option)}
-                >
-                  x
-                </button>
+              <div
+                className="selected-options__selected-option"
+                key={id}
+                onClick={() => selectEvent(option)}
+              >
+                {option}
               </div>
             ))
           : ""}
       </div>
-      <div className="select__options">
+      <div
+        className="select-any__options"
+        id={name + "__options"}
+        popover="auto"
+      >
         {options.map((option, id) => (
           <button
             key={id}
