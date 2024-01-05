@@ -8,7 +8,6 @@ import Modal from '../Modal';
 const Projects = () => {
   const { projects } = useAppSelector(state => state.projects)
   const [showModal, setShowModal] = useState<number>(-1);
-  const [filter, setFilter] = useState<string>('none');
 
   const projectCardHandler = (id: number) => {
     return (e: React.MouseEvent<HTMLButtonElement>) => {

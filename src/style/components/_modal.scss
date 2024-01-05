@@ -10,8 +10,10 @@
       animation: show-modal 1s;
 
       .modal {
+            width: 100%;
             max-width: 1000px;
-            min-height: 60vh;
+            height: 80vh;
+            overflow: scroll;
             margin: 25px;
             padding: 10px;
             @include flex(column, start, end, 10px);

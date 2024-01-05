@@ -1,5 +1,4 @@
 import Projects from '../components/Projects';
-import Filter from '../components/Projects/Filter';
 
 const Portfolio = () => {
   

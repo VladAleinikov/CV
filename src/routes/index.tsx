@@ -1,7 +1,6 @@
 import { ReactElement } from "react"
 import Portfolio from "../pages/Portfolio"
 import InDeveloping from "../pages/InDeveloping"
-import About from "../pages/About"
 
 interface IRoutes {
             path: string,

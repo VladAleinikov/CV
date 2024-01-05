@@ -7,8 +7,8 @@ interface IProps {
 const Modal = ({children, setShowModal}: IProps) => {
 
   return (
-    <div className="modal-bg" onClick={() => setShowModal(-1)}>
-      <div className="modal">
+    <div className="modal-bg" onClick={(e) => {  setShowModal(-1)}}>
+      <div className="modal" onClick={(e) =>e.stopPropagation()}>
         <button className="modal__close" onClick={() => setShowModal(-1)}>
           X
         </button>
