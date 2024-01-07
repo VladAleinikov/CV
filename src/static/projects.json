@@ -1,21 +1,37 @@
 [
       {
-            "title": "RumTibet",
-            "subtitle": "Верстка лэндига по макету Figma",
+            "title": "Revo",
+            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
             "technologies": [
+                  "html",
                   "scss",
                   "js"
             ],
-            "preview": "f_19465269ebb0efb7.jpg",
-            "date": "2012-02-23T18:25:43.511Z",
-            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
-            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
-            "link": "https://vladaleinikov.github.io/RumTibet/",
+            "preview": "opera_Cy6TIlwRQp.png",
+            "date": "12.10.23 ",
+            "figmaLink": "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+            "GithubLink": "https://github.com/VladAleinikov/Revo",
+            "link": "https://vladaleinikov.github.io/Revo/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "Pine-Hills-Architect",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету Figma",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "opera_78bXa8w23a.png",
+            "date": "08.11.23",
+            "figmaLink": "https://www.figma.com/file/1QRlDsy0F8h9LKYAoPqEYn/Untitled-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+            "GithubLink": "https://github.com/VladAleinikov/Pine-Hills-Architect",
+            "link": "https://vladaleinikov.github.io/Pine-Hills-Architect/",
             "type": "Вёрстка"
       },
       {
             "title": "Aveji",
-            "subtitle": "Подзаголовок: Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
             "technologies": [
                   "html",
                   "scss",
@@ -26,6 +42,21 @@
             "figmaLink": "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
             "GithubLink": "https://github.com/VladAleinikov/Aveji",
             "link": "https://vladaleinikov.github.io/Aveji/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "DIA-cleaning",
+            "subtitle": "Заказ на фриланс бирже. Верстка многостраничного сайта по макету Figma",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "opera_pAcZTMpCgG.png",
+            "date": "28.11.23",
+            "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+            "GithubLink": "https://github.com/VladAleinikov/DIA-cleaning",
+            "link": "https://vladaleinikov.github.io/DIA-cleaning/",
             "type": "Вёрстка"
       },
       {
@@ -41,6 +72,50 @@
             "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
             "GithubLink": "https://github.com/VladAleinikov/createx-construction",
             "link": "https://vladaleinikov.github.io/createx-construction/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "GitHubAPI",
+            "subtitle": "Работа с github API",
+            "technologies": [
+                  "typescript",
+                  "react",
+                  "redux"
+            ],
+            "preview": "opera_ANM5BDhflP.png",
+            "date": "13.11.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/GitHubAPI",
+            "link": "https://vladaleinikov.github.io/GitHubAPI/",
+            "type": "Pet-проект"
+      },
+      {
+            "title": "Приют для животных",
+            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+            "technologies": [
+                  "html",
+                  "css",
+                  "js"
+            ],
+            "preview": "f_90164fc55e6e2926.jpg",
+            "date": "09.04.22",
+            "figmaLink": "https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?type=design&t=qmXs83OmDMMlNcFk-6",
+            "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
+            "link": "https://vladaleinikov.github.io/pets-shelter/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "RumTibet",
+            "subtitle": "Верстка лэндига по макету Figma",
+            "technologies": [
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_19465269ebb0efb7.jpg",
+            "date": "2012-02-23T18:25:43.511Z",
+            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
+            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
+            "link": "https://vladaleinikov.github.io/RumTibet/",
             "type": "Вёрстка"
       },
       {
@@ -60,7 +135,7 @@
       },
       {
             "title": "ОФИС КОМФОРТ-А",
-            "subtitle": "Верстка лэндига по макету Figma",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету Figma",
             "technologies": [
                   "html",
                   "scss",
@@ -74,18 +149,66 @@
             "type": "Вёрстка"
       },
       {
-            "title": "Приют для животных",
-            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+            "title": "BalkariA-frame",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига",
             "technologies": [
                   "html",
-                  "css",
+                  "scss",
                   "js"
             ],
-            "preview": "f_90164fc55e6e2926.jpg",
-            "date": "09.04.22",
-            "figmaLink": "https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?type=design&t=qmXs83OmDMMlNcFk-6",
-            "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
-            "link": "https://vladaleinikov.github.io/pets-shelter/",
+            "preview": "opera_3nSHpBKotJ.png",
+            "date": "19.10.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/BalkariA-frame",
+            "link": "https://vladaleinikov.github.io/BalkariA-frame/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "MediaPro",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету photoshop",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js",
+                  "php"
+            ],
+            "preview": "opera_BhYIT5LA2m.png",
+            "date": "29.10.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/MediaPro",
+            "link": "https://vladaleinikov.github.io/MediaPro/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "MediaPro Case",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига 2 страницы по макету photoshop",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js",
+                  "php"
+            ],
+            "preview": "opera_BhYIT5LA2m.png",
+            "date": "30.10.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/MediaPro-Case",
+            "link": "https://vladaleinikov.github.io/MediaPro-Case/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "MediaPro Mission",
+            "subtitle": "Заказ на фриланс бирже. Верстка лэндига 3 страницы по макету photoshop",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js",
+                  "php"
+            ],
+            "preview": "opera_BhYIT5LA2m.png",
+            "date": "02.11.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/MediaPro-Mission",
+            "link": "https://vladaleinikov.github.io/MediaPro-Mission/",
             "type": "Вёрстка"
       },
       {
