@@ -14,7 +14,7 @@
       h3,
       p,
       path {
-            transition: 1s;
+            transition: .5s;
       }
       .project-card__title,
       .project-card__date,
@@ -40,7 +40,7 @@
             width: 500px;
             background: $backgroud;
             z-index: 10;
-            transition: 1s;
+            transition: .5s;
       }
       &::before {
             top: -100px;

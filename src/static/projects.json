@@ -11,51 +11,229 @@
             "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
             "GithubLink": "https://github.com/VladAleinikov/RumTibet",
             "link": "https://vladaleinikov.github.io/RumTibet/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "Aveji",
+            "subtitle": "Подзаголовок: Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_660651c55e4e5672.jpg",
+            "date": "03.10.23",
+            "figmaLink": "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
+            "GithubLink": "https://github.com/VladAleinikov/Aveji",
+            "link": "https://vladaleinikov.github.io/Aveji/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "CreateX",
+            "subtitle": "Верстка многостраничного сайта по макету Figma",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_3276515ebcbabeec.jpg",
+            "date": "29.09.23",
+            "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+            "GithubLink": "https://github.com/VladAleinikov/createx-construction",
+            "link": "https://vladaleinikov.github.io/createx-construction/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "Ujjo",
+            "subtitle": "Верстка одностраничного лэндинга по макету Figma",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_07364ff3b22222a2.jpg",
+            "date": "11.09.23",
+            "figmaLink": "https://www.figma.com/file/FmqRYj13B2YLh9Lpe5IixA/Ujjo-(Copy)?type=design&node-id=0-1&mode=design&t=30mpzRjePuo0zjsI-0",
+            "GithubLink": "https://github.com/VladAleinikov/Ujjo",
+            "link": "https://vladaleinikov.github.io/Ujjo/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "ОФИС КОМФОРТ-А",
+            "subtitle": "Верстка лэндига по макету Figma",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_130653e9ea8e64d3.jpg",
+            "date": "29.10.23",
+            "figmaLink": "https://www.figma.com/file/bBJZOy4zoo6TrjKoHvwRzU/%D0%9E%D1%84%D0%B8%D1%81-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82---%D0%90-(Copy)?type=design&node-id=0%3A1&mode=design&t=c86Sy1c87ondRrbq-1",
+            "GithubLink": "https://github.com/VladAleinikov/Ofiskomfort-a",
+            "link": "https://vladaleinikov.github.io/Ofiskomfort-a/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "Приют для животных",
+            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+            "technologies": [
+                  "html",
+                  "css",
+                  "js"
+            ],
+            "preview": "f_90164fc55e6e2926.jpg",
+            "date": "09.04.22",
+            "figmaLink": "https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?type=design&t=qmXs83OmDMMlNcFk-6",
+            "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
+            "link": "https://vladaleinikov.github.io/pets-shelter/",
+            "type": "Вёрстка"
+      },
+      {
+            "title": "LearnEnglish",
+            "subtitle": "Веб-приложение для изучения английского языка \"LearnEnglish\" для курсового проекта",
+            "technologies": [
+                  "html",
+                  "css",
+                  "php"
+            ],
+            "preview": "f_65464fe060185302.jpg",
+            "date": "10.04.2020",
+            "figmaLink": "",
+            "GithubLink": "",
+            "link": "",
+            "type": "Веб-приложение"
+      },
+      {
+            "title": "Aim-Game",
+            "subtitle": "Задание пятого дня марафона по JavaScript от Result School",
+            "technologies": [
+                  "html",
+                  "css",
+                  "js"
+            ],
+            "preview": "f_003651870cc53898.jpg",
+            "date": "30.09.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/aim-game",
+            "link": "https://vladaleinikov.github.io/aim-game/",
             "type": "Pet-проект"
       },
       {
-            "title": "RumTibet",
-            "subtitle": "Верстка лэндига по макету Figma",
+            "title": "Слайдер картинок",
+            "subtitle": "Задание первого дня марафона по JavaScript от Result School",
             "technologies": [
                   "html",
-                  "scss",
+                  "css",
                   "js"
             ],
-            "preview": "f_19465269ebb0efb7.jpg",
-            "date": "2012-04-23T18:25:43.511Z",
-            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
-            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
-            "link": "https://vladaleinikov.github.io/RumTibet/",
-            "type": "Вёрстка"
+            "preview": "f_30265168b4cd37b3.jpg",
+            "date": "29.09.23",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/pictures-slider",
+            "link": "https://vladaleinikov.github.io/pictures-slider/",
+            "type": "Pet-проект"
       },
       {
-            "title": "RumTibet",
-            "subtitle": "Верстка лэндига по макету Figma",
+            "title": "Hacker News API",
+            "subtitle": "React-приложение по выводу новостей с помощью Hacker News API для практики в Modsen",
             "technologies": [
-                  "html",
-                  "scss",
-                  "js"
+                  "react",
+                  "redux",
+                  "scss"
             ],
-            "preview": "f_19465269ebb0efb7.jpg",
-            "date": "2012-04-23T18:25:43.511Z",
-            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
-            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
-            "link": "https://vladaleinikov.github.io/RumTibet/",
-            "type": "Вёрстка"
+            "preview": "f_62964fdea82c5176.jpg",
+            "date": "10.08.22",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/HackerNewsReact",
+            "link": "https://vladaleinikov.github.io/HackerNewsReact/",
+            "type": "Веб-приложение"
       },
       {
-            "title": "RumTibet",
-            "subtitle": "Верстка лэндига по макету Figma",
+            "title": "Google Books API",
+            "subtitle": "React-приложение для поиска книг с помощью Google Books API для практики в Modes",
+            "technologies": [
+                  "react",
+                  "scss"
+            ],
+            "preview": "f_25064fde3479bc17.jpg",
+            "date": "19.08.22",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/BookSearchReact",
+            "link": "https://vladaleinikov.github.io/BookSearchReact/",
+            "type": "Веб-приложение"
+      },
+      {
+            "title": "Пятнашки",
+            "subtitle": "Проект для практики в EPAM в 2021 году",
+            "technologies": [
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_75464fc4ba15d502.jpg",
+            "date": "11.07.21",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/tag",
+            "link": "https://vladaleinikov.github.io/tag/",
+            "type": "Pet-проект"
+      },
+      {
+            "title": "Виртуальная клавиатура",
+            "subtitle": "Проект для rs school",
             "technologies": [
                   "html",
                   "scss",
                   "js"
             ],
-            "preview": "f_19465269ebb0efb7.jpg",
-            "date": "2012-04-23T18:25:43.511Z",
-            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
-            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
-            "link": "https://vladaleinikov.github.io/RumTibet/",
-            "type": "Вёрстка"
+            "preview": "f_39464fcca540a507.jpg",
+            "date": "04.05.22",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/VirtualKeyboard",
+            "link": "https://vladaleinikov.github.io/VirtualKeyboard/",
+            "type": "Pet-проект"
+      },
+      {
+            "title": "Drag and Drop",
+            "subtitle": "Задание второго дня марафона по JavaScript от Result School",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_1626516f381866a1.jpg",
+            "date": "29.09.23 ",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/daragAndDrop",
+            "link": "https://vladaleinikov.github.io/daragAndDrop/",
+            "type": "Pet-проект"
+      },
+      {
+            "title": "Вертикальный слайдер",
+            "subtitle": "Задание третьего дня марафона по JavaScript от Result School",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_68465186f028bf8d.jpg",
+            "date": "30.09.23 ",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/vertical-slider",
+            "link": "https://vladaleinikov.github.io/vertical-slider/",
+            "type": "Pet-проект"
+      },
+      {
+            "title": "Мини-игра",
+            "subtitle": "Задание четвертого дня марафона по JavaScript от Result School",
+            "technologies": [
+                  "html",
+                  "scss",
+                  "js"
+            ],
+            "preview": "f_36765186ff650fa4.jpg",
+            "date": "30.09.23 ",
+            "figmaLink": "",
+            "GithubLink": "https://github.com/VladAleinikov/mini-game",
+            "link": "https://vladaleinikov.github.io/mini-game/",
+            "type": "Pet-проект"
       }
 ]

@@ -44,6 +44,8 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
+          <Link to="/education">Образование</Link>
+        </li>
         <li
           data-indexnum="2"
           ref={links[2]}
@@ -51,8 +53,6 @@ const Navigation = () => {
           onMouseEnter={linkHoverHandler}
         >
           <Link to="/skills">Навыки</Link>
-        </li>
-          <Link to="/education">Образование</Link>
         </li>
         <li
           data-indexnum="3"
