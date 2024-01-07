@@ -10,6 +10,7 @@ export interface IProject {
   GithubLink: string,
   link: string,
   type: "Всё" | "Верстка" | "Веб-приложение" | "Pet-проект",
+  content: string
 }
 export interface IIcon {
       "css": ReactElement,

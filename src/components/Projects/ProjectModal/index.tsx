@@ -24,7 +24,7 @@ const ProjectModal = ({ project }: { project: IProject }) => {
         </li>
       </ul>
 
-      <article className="project-modal__content"></article>
+      <article className="project-modal__content" dangerouslySetInnerHTML={{__html: project.content}}></article>
     </div>
   );
 };
