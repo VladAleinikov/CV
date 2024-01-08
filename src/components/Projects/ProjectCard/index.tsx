@@ -3,7 +3,7 @@ import { IProject } from '../../../models'
 import { icons } from '../../Icons';
 
 const ParseDate = (date: string): string => {
-  const dateParsed = new Date(date).toLocaleDateString("en-US");
+  const dateParsed = new Date(date).toLocaleDateString("en-GB");
   return dateParsed;
 }
 const ProjectCard = ({ project, onClick }: { project: IProject, onClick: MouseEventHandler }) => {
