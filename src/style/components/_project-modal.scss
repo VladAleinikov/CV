@@ -31,4 +31,7 @@
                   }
             }
       }
+      .project-modal__content{
+            @include flex(column, start, start, 20px);
+      }
 }

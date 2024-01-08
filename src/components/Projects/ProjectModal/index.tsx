@@ -23,8 +23,10 @@ const ProjectModal = ({ project }: { project: IProject }) => {
           {project.GithubLink && <a href={project.GithubLink} target="_blank">Github</a>}
         </li>
       </ul>
-
-      <article className="project-modal__content" dangerouslySetInnerHTML={{__html: project.content}}></article>
+      <h3>Описание:</h3>
+      <article className="project-modal__content" dangerouslySetInnerHTML={{ __html: project.content }}>
+        
+      </article>
     </div>
   );
 };

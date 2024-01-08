@@ -22,7 +22,10 @@
             border-radius: 5px;
             box-shadow: 4px 4px 8px 0px rgba($text, 0.5);
 
-            .modal__close{
+            &::-webkit-scrollbar {
+                  width: 0px;
+            }
+            .modal__close {
                   cursor: pointer;
                   padding: 5px;
                   margin-left: auto;
@@ -30,9 +33,9 @@
                   height: 40px;
                   background: transparent;
                   font-size: 20px;
-                  transition: .5s;
+                  transition: 0.5s;
 
-                  &:hover{
+                  &:hover {
                         color: $accent-2;
                   }
             }
