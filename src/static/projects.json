@@ -13,7 +13,7 @@
             "GithubLink": "https://github.com/VladAleinikov/Revo",
             "link": "https://vladaleinikov.github.io/Revo/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/Revo/vladaleinikov.github.io_Revo_.png'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/Revo/vladaleinikov.github.io_Revo_.png'/></div>"
       },
       {
             "title": "Pine-Hills-Architect",
@@ -29,7 +29,7 @@
             "GithubLink": "https://github.com/VladAleinikov/Pine-Hills-Architect",
             "link": "https://vladaleinikov.github.io/Pine-Hills-Architect/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/Pine-Hills-Architect/vladaleinikov.github.io_Pine-Hills-Architect_.png'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/Pine-Hills-Architect/vladaleinikov.github.io_Pine-Hills-Architect_.png'/></div>"
       },
       {
             "title": "Aveji",
@@ -45,7 +45,7 @@
             "GithubLink": "https://github.com/VladAleinikov/Aveji",
             "link": "https://vladaleinikov.github.io/Aveji/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/Aveji/aveji-desc.png'/></div><h3>Главная, мобильная версия:</h3><div className='content__img-container img-mobile'><img src='/assets/projects/Aveji/aveji-mobile.png'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/Aveji/aveji-desc.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/assets/projects/Aveji/aveji-mobile.png'/></div>"
       },
       {
             "title": "DIA-cleaning",
@@ -61,7 +61,7 @@
             "GithubLink": "https://github.com/VladAleinikov/DIA-cleaning",
             "link": "https://vladaleinikov.github.io/DIA-cleaning/pages/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-main.png'/></div><h3>Услуги:</h3><div className='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-services.png'/></div><h3>Отзывы:</h3><div className='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-comments.png'/></div><h3>Контакты:</h3><div className='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-contacts.png'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-main.png'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-services.png'/></div><h3>Отзывы:</h3><div class='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-comments.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/assets/projects/DIA-cleaning/DIA-cleaning-contacts.png'/></div>"
       },
       {
             "title": "CreateX",
@@ -77,7 +77,7 @@
             "GithubLink": "https://github.com/VladAleinikov/createx-construction",
             "link": "https://vladaleinikov.github.io/createx-construction/pages/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-homepage.jpg'/></div><h3>Услуги:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-services.png'/></div><h3>Об услуге:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-service.png'/></div><h3>Проекты:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-portfolio.png'/></div><h3>Проект:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-project.png'/></div><h3>О нас:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-about.png'/></div><h3>Новости:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-news.png'/></div><h3>Новость:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-post.png'/></div><h3>Контакты:</h3><div className='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-contacts.png'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-homepage.jpg'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-services.png'/></div><h3>Об услуге:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-service.png'/></div><h3>Проекты:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-portfolio.png'/></div><h3>Проект:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-project.png'/></div><h3>О нас:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-about.png'/></div><h3>Новости:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-news.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-post.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/assets/projects/createx-construction/createx-construction-contacts.png'/></div>"
       },
       {
             "title": "GitHubAPI",
@@ -93,7 +93,7 @@
             "GithubLink": "https://github.com/VladAleinikov/GitHubAPI",
             "link": "https://vladaleinikov.github.io/GitHubAPI/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/GitHubAPI/github-api-homepage.png'/></div>"
       },
       {
             "title": "Приют для животных",
@@ -105,16 +105,17 @@
             ],
             "preview": "f_90164fc55e6e2926.jpg",
             "date": "2023/04/09",
-            "figmaLink": "https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?type=design&t=qmXs83OmDMMlNcFk-6",
+            "figmaLink": "https://www.figma.com/file/6z3i7tRr2L9WF3MuSj2iDf/shelter-dom-(Copy)?type=design&t=ZAzlXTWMKcCcEq20-6",
             "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
             "link": "https://vladaleinikov.github.io/pets-shelter/pages/main/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/pets-shelter/pets-shelter-main.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/assets/projects/pets-shelter/pets-shelter-main-mobile.jpg'/></div><h3>Наши питомцы:</h3><div class='content__img-container'><img src='/assets/projects/pets-shelter/pets-shelter-our-pets.jpg'/></div><h3>Наши питомцы, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/assets/projects/pets-shelter/pets-shelter-our-pets-mobile.jpg'/></div>"
       },
       {
             "title": "RumTibet",
             "subtitle": "Верстка лэндига по макету Figma",
             "technologies": [
+                  "html",
                   "scss",
                   "js"
             ],
@@ -124,7 +125,7 @@
             "GithubLink": "https://github.com/VladAleinikov/RumTibet",
             "link": "https://vladaleinikov.github.io/RumTibet/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/RumTibet/RumTibet-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/assets/projects/RumTibet/RumTibet-main-mobile.jpg'/></div>"
       },
       {
             "title": "Ujjo",
@@ -140,7 +141,7 @@
             "GithubLink": "https://github.com/VladAleinikov/Ujjo",
             "link": "https://vladaleinikov.github.io/Ujjo/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/Ujjo/ujjo-main.jpg'/></div>"
       },
       {
             "title": "ОФИС КОМФОРТ-А",
@@ -156,7 +157,7 @@
             "GithubLink": "https://github.com/VladAleinikov/Ofiskomfort-a",
             "link": "https://vladaleinikov.github.io/Ofiskomfort-a/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/Ofiskomfort/Ofiskomfort-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/assets/projects/Ofiskomfort/Ofiskomfort-main-mobile.png'/></div>"
       },
       {
             "title": "BalkariA-frame",
@@ -172,7 +173,7 @@
             "GithubLink": "https://github.com/VladAleinikov/BalkariA-frame",
             "link": "https://vladaleinikov.github.io/BalkariA-frame/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/BalkariA/BalkariA-main.png'/></div>"
       },
       {
             "title": "MediaPro",
@@ -189,7 +190,7 @@
             "GithubLink": "https://github.com/VladAleinikov/MediaPro",
             "link": "https://vladaleinikov.github.io/MediaPro/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/MediaPro/MediaPro-main.png'/></div>"
       },
       {
             "title": "MediaPro Case",
@@ -206,7 +207,7 @@
             "GithubLink": "https://github.com/VladAleinikov/MediaPro-Case",
             "link": "https://vladaleinikov.github.io/MediaPro-Case/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Вторая страница:</h3><div class='content__img-container'><img src='/assets/projects/MediaPro/MediaPro-Case.png'/></div>"
       },
       {
             "title": "MediaPro Mission",
@@ -223,11 +224,11 @@
             "GithubLink": "https://github.com/VladAleinikov/MediaPro-Mission",
             "link": "https://vladaleinikov.github.io/MediaPro-Mission/",
             "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Третья страница:</h3><div class='content__img-container'><img src='/assets/projects/MediaPro/MediaPro-Mission.png'/></div>"
       },
       {
             "title": "LearnEnglish",
-            "subtitle": "Веб-приложение для изучения английского языка \"LearnEnglish\" для курсового проекта",
+            "subtitle": "Веб-приложение для изучения английского языка \"LearnEnglish\" для курсового проектаТехнологии: HTML, CSS, PHP, MySQL. Требования: Регистрация учеников и преподавателей; Тесты по английскому (тесты по грамматике, аудирование, чтение); Сохранение результатов тестирования",
             "technologies": [
                   "html",
                   "css",
@@ -239,7 +240,7 @@
             "GithubLink": "",
             "link": "",
             "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/LearnEnglish/LearnEnglish-main.png'/></div><h3>Тесты:</h3><div class='content__img-container'><img src='/assets/projects/LearnEnglish/LearnEnglish-test.png'/></div><h3>Результаты:</h3><div class='content__img-container'><img src='/assets/projects/LearnEnglish/LearnEnglish-result.png'/></div><h3>Профиль:</h3><div class='content__img-container'><img src='/assets/projects/LearnEnglish/LearnEnglish-profile.png'/></div>"
       },
       {
             "title": "Aim-Game",
@@ -255,7 +256,7 @@
             "GithubLink": "https://github.com/VladAleinikov/aim-game",
             "link": "https://vladaleinikov.github.io/aim-game/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Стартовый экран:</h3><div class='content__img-container'><img src='/assets/projects/aim-game/aim-game-main.png'/></div><h3>Выбор времени:</h3><div class='content__img-container'><img src='/assets/projects/aim-game/aim-game-time.png'/></div><h3>Игра:</h3><div class='content__img-container'><img src='/assets/projects/aim-game/aim-game.png'/></div>"
       },
       {
             "title": "Слайдер картинок",
@@ -271,7 +272,7 @@
             "GithubLink": "https://github.com/VladAleinikov/pictures-slider",
             "link": "https://vladaleinikov.github.io/pictures-slider/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<div class='content__img-container'><img src='/assets/projects/pictures-slider/pictures-slider-1.png'/></div><div class='content__img-container'><img src='/assets/projects/pictures-slider/pictures-slider-2.png'/></div>"
       },
       {
             "title": "Hacker News API",
@@ -287,7 +288,7 @@
             "GithubLink": "https://github.com/VladAleinikov/HackerNewsReact",
             "link": "https://vladaleinikov.github.io/HackerNewsReact/",
             "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/HackerNewsReact/HackerNewsReact-main.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/assets/projects/HackerNewsReact/HackerNewsReact-post.png'/></div>"
       },
       {
             "title": "Google Books API",
@@ -302,7 +303,7 @@
             "GithubLink": "https://github.com/VladAleinikov/BookSearchReact",
             "link": "https://vladaleinikov.github.io/BookSearchReact/",
             "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/assets/projects/BookSearchReact/BookSearchReact-main.png'/></div><h3>Страница книги:</h3><div class='content__img-container'><img src='/assets/projects/BookSearchReact/BookSearchReact-book.png'/></div>"
       },
       {
             "title": "Пятнашки",
@@ -317,7 +318,7 @@
             "GithubLink": "https://github.com/VladAleinikov/tag",
             "link": "https://vladaleinikov.github.io/tag/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<h3>Игра:</h3><div class='content__img-container'><img src='/assets/projects/tag/tag-game.png'/></div><h3>Меню паузы:</h3><div class='content__img-container'><img src='/assets/projects/tag/tag-pause.png'/></div><h3>Поле 8 на 8:</h3><div class='content__img-container'><img src='/assets/projects/tag/tag-8x8.png'/></div><h3>Поле с картинками:</h3><div class='content__img-container'><img src='/assets/projects/tag/tag-pictures.png'/></div>"
       },
       {
             "title": "Виртуальная клавиатура",
@@ -333,7 +334,7 @@
             "GithubLink": "https://github.com/VladAleinikov/VirtualKeyboard",
             "link": "https://vladaleinikov.github.io/VirtualKeyboard/virtualKeyboard/pages/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<div class='content__img-container'><img src='/assets/projects/virtualKeyboard/virtualKeyboard.png'/></div>"
       },
       {
             "title": "Drag and Drop",
@@ -349,7 +350,7 @@
             "GithubLink": "https://github.com/VladAleinikov/daragAndDrop",
             "link": "https://vladaleinikov.github.io/daragAndDrop/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<div class='content__img-container'><img src='/assets/projects/daragAndDrop/daragAndDrop.png'/></div>"
       },
       {
             "title": "Вертикальный слайдер",
@@ -365,7 +366,7 @@
             "GithubLink": "https://github.com/VladAleinikov/vertical-slider",
             "link": "https://vladaleinikov.github.io/vertical-slider/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<div class='content__img-container'><img src='/assets/projects/vertical-slider/vertical-slider-1.png'/></div><div class='content__img-container'><img src='/assets/projects/vertical-slider/vertical-slider-2.png'/></div>"
       },
       {
             "title": "Мини-игра",
@@ -381,6 +382,6 @@
             "GithubLink": "https://github.com/VladAleinikov/mini-game",
             "link": "https://vladaleinikov.github.io/mini-game/",
             "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div className='content__img-container'><img src='/assets/projects/'/></div>"
+            "content": "<div class='content__img-container'><img src='/assets/projects/mini-game/mini-game.png'/></div>"
       }
 ]
