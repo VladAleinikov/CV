@@ -2,6 +2,8 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 import projects from "../../static/projects.json";
 import { IFilter, IProject, ProjectTypesType, SortType } from "../../models";
 
+
+
 interface IProjectsState {
   projects: Array<IProject>;
   filter: IFilter;

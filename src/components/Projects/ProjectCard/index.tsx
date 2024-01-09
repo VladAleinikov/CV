@@ -1,4 +1,4 @@
-import React, { MouseEventHandler } from 'react'
+import { MouseEventHandler } from 'react'
 import { IProject } from '../../../models'
 import { icons } from '../../Icons';
 

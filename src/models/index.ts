@@ -9,7 +9,7 @@ export interface IProject {
   figmaLink: string;
   GithubLink: string;
   link: string;
-  type: "Всё" | "Верстка" | "Веб-приложение" | "Pet-проект";
+  type: "Всё" | "Верстка" | "Веб-приложение" | "Pet-проект" | string;
   content: string;
 }
 export interface IIcon {
