@@ -1,3 +1,11 @@
+import { computePosition } from "@floating-ui/dom";
+import { useEffect, useRef } from "react";
+
+declare module "react" {
+  interface HTMLProps<T> {
+    ref?: string;
+  }
+}
 interface ISelectProps {
   name: string;
   title: string;
@@ -6,7 +14,6 @@ interface ISelectProps {
   selectEvent(options: string): void;
 }
 
-
 const SelectAny = ({
   name,
   title,
@@ -14,9 +21,27 @@ const SelectAny = ({
   selectedOptions,
   selectEvent,
 }: ISelectProps) => {
+  const popover = useRef<HTMLDivElement>(null);
+  const invoker = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    computePosition(
+      invoker.current as HTMLElement,
+      popover.current as HTMLElement
+    ).then(({ x, y }) => {
+      Object.assign(popover.current?.style as object, {
+        left: `${x - 50}px`,
+        top: `${y - 30}px`,
+      });
+    });
+  }, []);
   return (
     <div className="filter__select-any">
-      <button className="select-any__title" popovertarget={name + "__options"}>
+      <button
+        className="select-any__title"
+        popovertarget={name + "__options"}
+        ref={invoker}
+      >
         {title}
       </button>
       <div className="select-any__selected-options">
@@ -36,6 +61,7 @@ const SelectAny = ({
         className="select-any__options"
         id={name + "__options"}
         popover="auto"
+        ref={popover}
       >
         {options.map((option, id) => (
           <button

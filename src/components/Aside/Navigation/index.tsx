@@ -59,7 +59,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/about">Обо мне</Link>
+          <Link to="/cv/about">Обо мне</Link>
         </li>
         <li
           data-indexnum="1"
@@ -67,7 +67,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/education">Образование</Link>
+          <Link to="/cv/education">Образование</Link>
         </li>
         <li
           data-indexnum="2"
@@ -75,7 +75,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/skills">Навыки</Link>
+          <Link to="/cv/skills">Навыки</Link>
         </li>
         <li
           data-indexnum="3"
@@ -83,7 +83,7 @@ const Navigation = () => {
           className="links__link active"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/projects">Проекты</Link>
+          <Link to="/cv/projects">Проекты</Link>
         </li>
       </ul>
     </nav>

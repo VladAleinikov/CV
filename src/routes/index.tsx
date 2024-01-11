@@ -1,17 +1,18 @@
-import { ReactElement } from "react"
-import Portfolio from "../pages/Portfolio"
-import InDeveloping from "../pages/InDeveloping"
+import { ReactElement } from "react";
+import Portfolio from "../pages/Portfolio";
+import InDeveloping from "../pages/InDeveloping";
+import { Navigate } from "react-router";
 
 interface IRoutes {
-            path: string,
-            element: ReactElement,
-      }
-
+  path: string;
+  element: ReactElement;
+}
 
 export const routes: IRoutes[] = [
-      { path: '/', element: <Portfolio /> },
-      { path: '/about', element: <InDeveloping /> },
-      { path: '/education', element: <InDeveloping /> },
-      { path: '/skills', element: <InDeveloping /> },
-      { path: '/projects', element: <Portfolio /> }
-]
+  { path: "/cv/", element: <Portfolio /> },
+  { path: "/cv/about", element: <InDeveloping /> },
+  { path: "/cv/education", element: <InDeveloping /> },
+  { path: "/cv/skills", element: <InDeveloping /> },
+  { path: "/cv/projects", element: <Portfolio /> },
+  { path: "*", element: <Navigate to="/cv/" replace />},
+];

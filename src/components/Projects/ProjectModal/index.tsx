@@ -6,7 +6,7 @@ const ProjectModal = ({ project }: { project: IProject }) => {
       <h3 className="project-modal__title">{project.title}</h3>
       <img
         className="project-modal__preview"
-        src={"/assets/projects/previews/" + project.preview}
+        src={"/cv/assets/projects/previews/" + project.preview}
         alt="project-preview"
       />
       <p className="project-modal__subtitle">{project.subtitle}</p>

@@ -10,7 +10,7 @@ const ProjectCard = ({ project, onClick }: { project: IProject, onClick: MouseEv
   const { title, technologies, preview, date } = project;
   return (
     <div onClick={onClick} className='projects__project-card'>
-      <img src={"/assets/projects/previews/" + preview} alt="project-preview" className='project-card__img' />
+      <img src={"/cv/assets/projects/previews/" + preview} alt="project-preview" className='project-card__img' />
       <ul className="project-card__technologies">
         {technologies.map((technology, id) =>
           <li className='technologies__technology' key={id}>

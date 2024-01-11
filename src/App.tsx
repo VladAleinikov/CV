@@ -14,6 +14,7 @@ function App() {
     return (<NoMobilePage/>);
   }
 
+
   return (
     <main>
       <Aside/>
