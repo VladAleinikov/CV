@@ -34,7 +34,7 @@ const SelectAny = ({
         top: `${y - 30}px`,
       });
     });
-  }, []);
+  }, [invoker, popover, title]);
   return (
     <div className="filter__select-any">
       <button

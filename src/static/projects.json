@@ -1,387 +1,507 @@
 [
-      {
-            "title": "Revo",
-            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "opera_Cy6TIlwRQp.png",
-            "date": "2023/10/12 ",
-            "figmaLink": "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
-            "GithubLink": "https://github.com/VladAleinikov/Revo",
-            "link": "https://vladaleinikov.github.io/Revo/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Revo/vladaleinikov.github.io_Revo_.png'/></div>"
-      },
-      {
-            "title": "Pine-Hills-Architect",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "opera_78bXa8w23a.png",
-            "date": "2023/11/08",
-            "figmaLink": "https://www.figma.com/file/1QRlDsy0F8h9LKYAoPqEYn/Untitled-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
-            "GithubLink": "https://github.com/VladAleinikov/Pine-Hills-Architect",
-            "link": "https://vladaleinikov.github.io/Pine-Hills-Architect/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Pine-Hills-Architect/vladaleinikov.github.io_Pine-Hills-Architect_.png'/></div>"
-      },
-      {
-            "title": "Aveji",
-            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_660651c55e4e5672.jpg",
-            "date": "2023/10/03",
-            "figmaLink": "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
-            "GithubLink": "https://github.com/VladAleinikov/Aveji",
-            "link": "https://vladaleinikov.github.io/Aveji/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Aveji/aveji-desc.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Aveji/aveji-mobile.png'/></div>"
-      },
-      {
-            "title": "DIA-cleaning",
-            "subtitle": "Заказ на фриланс бирже. Верстка многостраничного сайта по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "opera_pAcZTMpCgG.png",
-            "date": "2023/11/28",
-            "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
-            "GithubLink": "https://github.com/VladAleinikov/DIA-cleaning",
-            "link": "https://vladaleinikov.github.io/DIA-cleaning/pages/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-main.png'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-services.png'/></div><h3>Отзывы:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-comments.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-contacts.png'/></div>"
-      },
-      {
-            "title": "CreateX",
-            "subtitle": "Верстка многостраничного сайта по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_3276515ebcbabeec.jpg",
-            "date": "2023/09/29",
-            "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
-            "GithubLink": "https://github.com/VladAleinikov/createx-construction",
-            "link": "https://vladaleinikov.github.io/createx-construction/pages/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-homepage.jpg'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-services.png'/></div><h3>Об услуге:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-service.png'/></div><h3>Проекты:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-portfolio.png'/></div><h3>Проект:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-project.png'/></div><h3>О нас:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-about.png'/></div><h3>Новости:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-news.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-post.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-contacts.png'/></div>"
-      },
-      {
-            "title": "GitHubAPI",
-            "subtitle": "Работа с github API",
-            "technologies": [
-                  "typescript",
-                  "react",
-                  "redux"
-            ],
-            "preview": "opera_ANM5BDhflP.png",
-            "date": "2023/11/13",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/GitHubAPI",
-            "link": "https://vladaleinikov.github.io/GitHubAPI/",
-            "type": "Pet-проект",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/GitHubAPI/github-api-homepage.png'/></div>"
-      },
-      {
-            "title": "Приют для животных",
-            "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
-            "technologies": [
-                  "html",
-                  "css",
-                  "js"
-            ],
-            "preview": "f_90164fc55e6e2926.jpg",
-            "date": "2022/04/09",
-            "figmaLink": "https://www.figma.com/file/6z3i7tRr2L9WF3MuSj2iDf/shelter-dom-(Copy)?type=design&t=ZAzlXTWMKcCcEq20-6",
-            "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
-            "link": "https://vladaleinikov.github.io/pets-shelter/pages/main/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main-mobile.jpg'/></div><h3>Наши питомцы:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets.jpg'/></div><h3>Наши питомцы, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets-mobile.jpg'/></div>"
-      },
-      {
-            "title": "RumTibet",
-            "subtitle": "Верстка лэндига по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_19465269ebb0efb7.jpg",
-            "date": "2023/10/02",
-            "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
-            "GithubLink": "https://github.com/VladAleinikov/RumTibet",
-            "link": "https://vladaleinikov.github.io/RumTibet/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/RumTibet/RumTibet-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/RumTibet/RumTibet-main-mobile.jpg'/></div>"
-      },
-      {
-            "title": "Ujjo",
-            "subtitle": "Верстка одностраничного лэндинга по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_07364ff3b22222a2.jpg",
-            "date": "2023/09/11",
-            "figmaLink": "https://www.figma.com/file/FmqRYj13B2YLh9Lpe5IixA/Ujjo-(Copy)?type=design&node-id=0-1&mode=design&t=30mpzRjePuo0zjsI-0",
-            "GithubLink": "https://github.com/VladAleinikov/Ujjo",
-            "link": "https://vladaleinikov.github.io/Ujjo/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ujjo/ujjo-main.jpg'/></div>"
-      },
-      {
-            "title": "ОФИС КОМФОРТ-А",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету Figma",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_130653e9ea8e64d3.jpg",
-            "date": "2023/10/29",
-            "figmaLink": "https://www.figma.com/file/bBJZOy4zoo6TrjKoHvwRzU/%D0%9E%D1%84%D0%B8%D1%81-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82---%D0%90-(Copy)?type=design&node-id=0%3A1&mode=design&t=c86Sy1c87ondRrbq-1",
-            "GithubLink": "https://github.com/VladAleinikov/Ofiskomfort-a",
-            "link": "https://vladaleinikov.github.io/Ofiskomfort-a/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main-mobile.png'/></div>"
-      },
-      {
-            "title": "BalkariA-frame",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "opera_3nSHpBKotJ.png",
-            "date": "2023/10/19",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/BalkariA-frame",
-            "link": "https://vladaleinikov.github.io/BalkariA-frame/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/BalkariA/BalkariA-main.png'/></div>"
-      },
-      {
-            "title": "MediaPro",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету photoshop",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js",
-                  "php"
-            ],
-            "preview": "opera_BhYIT5LA2m.png",
-            "date": "2023/10/29",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/MediaPro",
-            "link": "https://vladaleinikov.github.io/MediaPro/",
-            "type": "Вёрстка",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-main.png'/></div>"
-      },
-      {
-            "title": "MediaPro Case",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига 2 страницы по макету photoshop",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js",
-                  "php"
-            ],
-            "preview": "opera_BhYIT5LA2m.png",
-            "date": "2023/10/30",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/MediaPro-Case",
-            "link": "https://vladaleinikov.github.io/MediaPro-Case/",
-            "type": "Вёрстка",
-            "content": "<h3>Вторая страница:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Case.png'/></div>"
-      },
-      {
-            "title": "MediaPro Mission",
-            "subtitle": "Заказ на фриланс бирже. Верстка лэндига 3 страницы по макету photoshop",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js",
-                  "php"
-            ],
-            "preview": "opera_BhYIT5LA2m.png",
-            "date": "2023/11/02",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/MediaPro-Mission",
-            "link": "https://vladaleinikov.github.io/MediaPro-Mission/",
-            "type": "Вёрстка",
-            "content": "<h3>Третья страница:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Mission.png'/></div>"
-      },
-      {
-            "title": "LearnEnglish",
-            "subtitle": "Веб-приложение для изучения английского языка \"LearnEnglish\" для курсового проектаТехнологии: HTML, CSS, PHP, MySQL. Требования: Регистрация учеников и преподавателей; Тесты по английскому (тесты по грамматике, аудирование, чтение); Сохранение результатов тестирования",
-            "technologies": [
-                  "html",
-                  "css",
-                  "php"
-            ],
-            "preview": "f_65464fe060185302.jpg",
-            "date": "2021/04/10",
-            "figmaLink": "",
-            "GithubLink": "",
-            "link": "",
-            "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-main.png'/></div><h3>Тесты:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-test.png'/></div><h3>Результаты:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-result.png'/></div><h3>Профиль:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-profile.png'/></div>"
-      },
-      {
-            "title": "Aim-Game",
-            "subtitle": "Задание пятого дня марафона по JavaScript от Result School",
-            "technologies": [
-                  "html",
-                  "css",
-                  "js"
-            ],
-            "preview": "f_003651870cc53898.jpg",
-            "date": "2023/09/30",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/aim-game",
-            "link": "https://vladaleinikov.github.io/aim-game/",
-            "type": "Pet-проект",
-            "content": "<h3>Стартовый экран:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-main.png'/></div><h3>Выбор времени:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-time.png'/></div><h3>Игра:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game.png'/></div>"
-      },
-      {
-            "title": "Слайдер картинок",
-            "subtitle": "Задание первого дня марафона по JavaScript от Result School",
-            "technologies": [
-                  "html",
-                  "css",
-                  "js"
-            ],
-            "preview": "f_30265168b4cd37b3.jpg",
-            "date": "2023/09/29",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/pictures-slider",
-            "link": "https://vladaleinikov.github.io/pictures-slider/",
-            "type": "Pet-проект",
-            "content": "<div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-2.png'/></div>"
-      },
-      {
-            "title": "Hacker News API",
-            "subtitle": "React-приложение по выводу новостей с помощью Hacker News API для практики в Modsen",
-            "technologies": [
-                  "react",
-                  "redux",
-                  "scss"
-            ],
-            "preview": "f_62964fdea82c5176.jpg",
-            "date": "2022/08/10",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/HackerNewsReact",
-            "link": "https://vladaleinikov.github.io/HackerNewsReact/",
-            "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-main.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-post.png'/></div>"
-      },
-      {
-            "title": "Google Books API",
-            "subtitle": "React-приложение для поиска книг с помощью Google Books API для практики в Modes",
-            "technologies": [
-                  "react",
-                  "scss"
-            ],
-            "preview": "f_25064fde3479bc17.jpg",
-            "date": "2022/08/19",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/BookSearchReact",
-            "link": "https://vladaleinikov.github.io/BookSearchReact/",
-            "type": "Веб-приложение",
-            "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-main.png'/></div><h3>Страница книги:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-book.png'/></div>"
-      },
-      {
-            "title": "Пятнашки",
-            "subtitle": "Проект для практики в EPAM в 2021 году",
-            "technologies": [
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_75464fc4ba15d502.jpg",
-            "date": "2021/07/11",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/tag",
-            "link": "https://vladaleinikov.github.io/tag/",
-            "type": "Pet-проект",
-            "content": "<h3>Игра:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-game.png'/></div><h3>Меню паузы:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pause.png'/></div><h3>Поле 8 на 8:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-8x8.png'/></div><h3>Поле с картинками:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pictures.png'/></div>"
-      },
-      {
-            "title": "Виртуальная клавиатура",
-            "subtitle": "Проект для rs school",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_39464fcca540a507.jpg",
-            "date": "2022/05/04",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/VirtualKeyboard",
-            "link": "https://vladaleinikov.github.io/VirtualKeyboard/virtualKeyboard/pages/",
-            "type": "Pet-проект",
-            "content": "<div class='content__img-container'><img src='/cv/assets/projects/virtualKeyboard/virtualKeyboard.png'/></div>"
-      },
-      {
-            "title": "Drag and Drop",
-            "subtitle": "Задание второго дня марафона по JavaScript от Result School",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_1626516f381866a1.jpg",
-            "date": "2023/09/29 ",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/daragAndDrop",
-            "link": "https://vladaleinikov.github.io/daragAndDrop/",
-            "type": "Pet-проект",
-            "content": "<div class='content__img-container'><img src='/cv/assets/projects/daragAndDrop/daragAndDrop.png'/></div>"
-      },
-      {
-            "title": "Вертикальный слайдер",
-            "subtitle": "Задание третьего дня марафона по JavaScript от Result School",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_68465186f028bf8d.jpg",
-            "date": "2023/09/30 ",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/vertical-slider",
-            "link": "https://vladaleinikov.github.io/vertical-slider/",
-            "type": "Pet-проект",
-            "content": "<div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-2.png'/></div>"
-      },
-      {
-            "title": "Мини-игра",
-            "subtitle": "Задание четвертого дня марафона по JavaScript от Result School",
-            "technologies": [
-                  "html",
-                  "scss",
-                  "js"
-            ],
-            "preview": "f_36765186ff650fa4.jpg",
-            "date": "2023/09/30 ",
-            "figmaLink": "",
-            "GithubLink": "https://github.com/VladAleinikov/mini-game",
-            "link": "https://vladaleinikov.github.io/mini-game/",
-            "type": "Pet-проект",
-            "content": "<div class='content__img-container'><img src='/cv/assets/projects/mini-game/mini-game.png'/></div>"
-      }
+  {
+    "title": "Revo",
+    "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+    "technologies": ["html", "scss", "js"],
+    "preview": "opera_Cy6TIlwRQp.png",
+    "date": "2023/10/12 ",
+    "figmaLink": "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+    "GithubLink": "https://github.com/VladAleinikov/Revo",
+    "link": "https://vladaleinikov.github.io/Revo/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Revo/vladaleinikov.github.io_Revo_.png'/></div>",
+    "projectEn": {
+      "title": "Revo",
+      "subtitle": "Landing page layout based on Figma layout with adaptability for mobile devices",
+      "preview": "opera_Cy6TIlwRQp.png",
+      "figmaLink": "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+      "GithubLink": "https://github.com/VladAleinikov/Revo",
+      "link": "https://vladaleinikov.github.io/Revo/",
+      "type": "Вёрстка",
+      "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/Revo/vladaleinikov.github.io_Revo_.png'/></div>"
+    }
+  },
+  {
+    "title": "Pine-Hills-Architect",
+    "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "opera_78bXa8w23a.png",
+    "date": "2023/11/08",
+    "figmaLink": "https://www.figma.com/file/1QRlDsy0F8h9LKYAoPqEYn/Untitled-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+    "GithubLink": "https://github.com/VladAleinikov/Pine-Hills-Architect",
+    "link": "https://vladaleinikov.github.io/Pine-Hills-Architect/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Pine-Hills-Architect/vladaleinikov.github.io_Pine-Hills-Architect_.png'/></div>",
+    "projectEn":{
+          "title": "Pine-Hills-Architect",
+          "subtitle": "Order on the freelance exchange. Landing page layout based on Figma layout",
+          "preview": "opera_78bXa8w23a.png",
+          "figmaLink": "https://www.figma.com/file/1QRlDsy0F8h9LKYAoPqEYn/Untitled-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+          "GithubLink": "https://github.com/VladAleinikov/Pine-Hills-Architect",
+          "link": "https://vladaleinikov.github.io/Pine-Hills-Architect/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/Pine-Hills-Architect/vladaleinikov.github.io_Pine-Hills-Architect_.png'/></div>"
+    }
+  },
+  {
+    "title": "Aveji",
+    "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_660651c55e4e5672.jpg",
+    "date": "2023/10/03",
+    "figmaLink": "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
+    "GithubLink": "https://github.com/VladAleinikov/Aveji",
+    "link": "https://vladaleinikov.github.io/Aveji/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Aveji/aveji-desc.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Aveji/aveji-mobile.png'/></div>",
+    "projectEn":{
+          "title": "Aveji",
+          "subtitle": "Landing page layout based on Figma layout with adaptability for mobile devices",
+          "preview": "f_660651c55e4e5672.jpg",
+          "figmaLink": "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
+          "GithubLink": "https://github.com/VladAleinikov/Aveji",
+          "link": "https://vladaleinikov.github.io/Aveji/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/Aveji/aveji-desc.png'/></div><h3>Main, mobile version:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Aveji/aveji-mobile.png'/></div>"
+    }
+  },
+  {
+    "title": "DIA-cleaning",
+    "subtitle": "Заказ на фриланс бирже. Верстка многостраничного сайта по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "opera_pAcZTMpCgG.png",
+    "date": "2023/11/28",
+    "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+    "GithubLink": "https://github.com/VladAleinikov/DIA-cleaning",
+    "link": "https://vladaleinikov.github.io/DIA-cleaning/pages/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-main.png'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-services.png'/></div><h3>Отзывы:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-comments.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-contacts.png'/></div>",
+    "projectEn":{
+          "title": "DIA-cleaning",
+          "subtitle": "Order on the freelance exchange. Layout of a multi-page website using Figma layout",
+          "preview": "opera_pAcZTMpCgG.png",
+          "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+          "GithubLink": "https://github.com/VladAleinikov/DIA-cleaning",
+          "link": "https://vladaleinikov.github.io/DIA-cleaning/pages/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-main.png'/></div><h3>Services:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-services.png'/></div><h3>Comments:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-comments.png'/></div><h3>Contacts:</h3><div class='content__img-container'><img src='/cv/assets/projects/DIA-cleaning/DIA-cleaning-contacts.png'/></div>"
+    }
+  },
+  {
+    "title": "CreateX",
+    "subtitle": "Верстка многостраничного сайта по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_3276515ebcbabeec.jpg",
+    "date": "2023/09/29",
+    "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+    "GithubLink": "https://github.com/VladAleinikov/createx-construction",
+    "link": "https://vladaleinikov.github.io/createx-construction/pages/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-homepage.jpg'/></div><h3>Услуги:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-services.png'/></div><h3>Об услуге:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-service.png'/></div><h3>Проекты:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-portfolio.png'/></div><h3>Проект:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-project.png'/></div><h3>О нас:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-about.png'/></div><h3>Новости:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-news.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-post.png'/></div><h3>Контакты:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-contacts.png'/></div>",
+    "projectEn":{
+          "title": "CreateX",
+          "subtitle": "Layout of a multi-page website using Figma layout",
+          "preview": "f_3276515ebcbabeec.jpg",
+          "figmaLink": "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+          "GithubLink": "https://github.com/VladAleinikov/createx-construction",
+          "link": "https://vladaleinikov.github.io/createx-construction/pages/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-homepage.jpg'/></div><h3>Services:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-services.png'/></div><h3>About service:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-service.png'/></div><h3>Projects:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-portfolio.png'/></div><h3>Project:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-project.png'/></div><h3>About us:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-about.png'/></div><h3>News:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-news.png'/></div><h3>Post:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-post.png'/></div><h3>Contacts:</h3><div class='content__img-container'><img src='/cv/assets/projects/createx-construction/createx-construction-contacts.png'/></div>"
+    }
+  },
+  {
+    "title": "GitHubAPI",
+    "subtitle": "Работа с github API",
+    "technologies": ["typescript", "react", "redux"],
+    "preview": "opera_ANM5BDhflP.png",
+    "date": "2023/11/13",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/GitHubAPI",
+    "link": "https://vladaleinikov.github.io/GitHubAPI/",
+    "type": "Pet-проект",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/GitHubAPI/github-api-homepage.png'/></div>",
+    "projectEn":{
+          "title": "GitHubAPI",
+          "subtitle": "Project using github API",
+          "preview": "opera_ANM5BDhflP.png",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/GitHubAPI",
+          "link": "https://vladaleinikov.github.io/GitHubAPI/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/GitHubAPI/github-api-homepage.png'/></div>"
+    }
+  },
+  {
+    "title": "Приют для животных",
+    "subtitle": "Верстка лэндинга по макету Figma с адаптивом под мобильные устройства",
+    "technologies": ["html", "css", "js"],
+    "preview": "f_90164fc55e6e2926.jpg",
+    "date": "2022/04/09",
+    "figmaLink": "https://www.figma.com/file/6z3i7tRr2L9WF3MuSj2iDf/shelter-dom-(Copy)?type=design&t=ZAzlXTWMKcCcEq20-6",
+    "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
+    "link": "https://vladaleinikov.github.io/pets-shelter/pages/main/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main.png'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main-mobile.jpg'/></div><h3>Наши питомцы:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets.jpg'/></div><h3>Наши питомцы, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets-mobile.jpg'/></div>",
+    "projectEn":{
+          "title": "Pets shelter",
+          "subtitle": "Landing page layout based on Figma layout with adaptability for mobile devices",
+          "preview": "f_90164fc55e6e2926.jpg",
+          "figmaLink": "https://www.figma.com/file/6z3i7tRr2L9WF3MuSj2iDf/shelter-dom-(Copy)?type=design&t=ZAzlXTWMKcCcEq20-6",
+          "GithubLink": "https://github.com/VladAleinikov/pets-shelter",
+          "link": "https://vladaleinikov.github.io/pets-shelter/pages/main/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main.png'/></div><h3>Main, mobile version:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-main-mobile.jpg'/></div><h3>Our pets:</h3><div class='content__img-container'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets.jpg'/></div><h3>Our pets, mobile version:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/pets-shelter/pets-shelter-our-pets-mobile.jpg'/></div>"
+    }
+  },
+  {
+    "title": "RumTibet",
+    "subtitle": "Верстка лэндига по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_19465269ebb0efb7.jpg",
+    "date": "2023/10/02",
+    "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
+    "GithubLink": "https://github.com/VladAleinikov/RumTibet",
+    "link": "https://vladaleinikov.github.io/RumTibet/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/RumTibet/RumTibet-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/RumTibet/RumTibet-main-mobile.jpg'/></div>",
+    "projectEn":{
+          "title": "RumTibet",
+          "subtitle": "Landing page layout based on Figma layout",
+          "preview": "f_19465269ebb0efb7.jpg",
+          "figmaLink": "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
+          "GithubLink": "https://github.com/VladAleinikov/RumTibet",
+          "link": "https://vladaleinikov.github.io/RumTibet/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/RumTibet/RumTibet-main.jpg'/></div><h3>Main, mobile version:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/RumTibet/RumTibet-main-mobile.jpg'/></div>"
+    }
+  },
+  {
+    "title": "Ujjo",
+    "subtitle": "Верстка одностраничного лэндинга по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_07364ff3b22222a2.jpg",
+    "date": "2023/09/11",
+    "figmaLink": "https://www.figma.com/file/FmqRYj13B2YLh9Lpe5IixA/Ujjo-(Copy)?type=design&node-id=0-1&mode=design&t=30mpzRjePuo0zjsI-0",
+    "GithubLink": "https://github.com/VladAleinikov/Ujjo",
+    "link": "https://vladaleinikov.github.io/Ujjo/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ujjo/ujjo-main.jpg'/></div>",
+    "projectEn":{
+          "title": "Ujjo",
+          "subtitle": "Layout of a one-page landing page using Figma layout",
+          "preview": "f_07364ff3b22222a2.jpg",
+          "figmaLink": "https://www.figma.com/file/FmqRYj13B2YLh9Lpe5IixA/Ujjo-(Copy)?type=design&node-id=0-1&mode=design&t=30mpzRjePuo0zjsI-0",
+          "GithubLink": "https://github.com/VladAleinikov/Ujjo",
+          "link": "https://vladaleinikov.github.io/Ujjo/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ujjo/ujjo-main.jpg'/></div>"
+    }
+  },
+  {
+    "title": "ОФИС КОМФОРТ-А",
+    "subtitle": "Заказ на фриланс бирже. Верстка многостраничного лэндига по макету Figma",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_130653e9ea8e64d3.jpg",
+    "date": "2023/10/29",
+    "figmaLink": "https://www.figma.com/file/bBJZOy4zoo6TrjKoHvwRzU/%D0%9E%D1%84%D0%B8%D1%81-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82---%D0%90-(Copy)?type=design&node-id=0%3A1&mode=design&t=c86Sy1c87ondRrbq-1",
+    "GithubLink": "https://github.com/VladAleinikov/Ofiskomfort-a",
+    "link": "https://vladaleinikov.github.io/Ofiskomfort-a/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main.jpg'/></div><h3>Главная, мобильная версия:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main-mobile.png'/></div>",
+    "projectEn":{
+          "title": "OFFICE-COMFORT-A",
+          "subtitle": "Order on the freelance exchange. Layout of a multi-page landing page using Figma layout",
+          "preview": "f_130653e9ea8e64d3.jpg",
+          "figmaLink": "https://www.figma.com/file/bBJZOy4zoo6TrjKoHvwRzU/%D0%9E%D1%84%D0%B8%D1%81-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82---%D0%90-(Copy)?type=design&node-id=0%3A1&mode=design&t=c86Sy1c87ondRrbq-1",
+          "GithubLink": "https://github.com/VladAleinikov/Ofiskomfort-a",
+          "link": "https://vladaleinikov.github.io/Ofiskomfort-a/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main.jpg'/></div><h3>Main, mobile version:</h3><div class='content__img-container img-mobile'><img src='/cv/assets/projects/Ofiskomfort/Ofiskomfort-main-mobile.png'/></div>"
+    }
+  },
+  {
+    "title": "BalkariA-frame",
+    "subtitle": "Заказ на фриланс бирже. Верстка лэндига",
+    "technologies": ["html", "scss", "js"],
+    "preview": "opera_3nSHpBKotJ.png",
+    "date": "2023/10/19",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/BalkariA-frame",
+    "link": "https://vladaleinikov.github.io/BalkariA-frame/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/BalkariA/BalkariA-main.png'/></div>",
+    "projectEn":{
+          "title": "BalkariA-frame",
+          "subtitle": "Order on the freelance exchange. Landing page layout",
+          "preview": "opera_3nSHpBKotJ.png",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/BalkariA-frame",
+          "link": "https://vladaleinikov.github.io/BalkariA-frame/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/BalkariA/BalkariA-main.png'/></div>"
+    }
+  },
+  {
+    "title": "MediaPro",
+    "subtitle": "Заказ на фриланс бирже. Верстка лэндига по макету photoshop",
+    "technologies": ["html", "scss", "js", "php"],
+    "preview": "opera_BhYIT5LA2m.png",
+    "date": "2023/10/29",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/MediaPro",
+    "link": "https://vladaleinikov.github.io/MediaPro/",
+    "type": "Вёрстка",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-main.png'/></div>",
+    "projectEn":{
+          "title": "MediaPro",
+          "subtitle": "Order on the freelance exchange. Landing page layout based on photoshop layout",
+          "preview": "opera_BhYIT5LA2m.png",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/MediaPro",
+          "link": "https://vladaleinikov.github.io/MediaPro/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-main.png'/></div>"
+    }
+  },
+  {
+    "title": "MediaPro Case",
+    "subtitle": "Заказ на фриланс бирже. Верстка лэндига 2 страницы по макету photoshop",
+    "technologies": ["html", "scss", "js", "php"],
+    "preview": "opera_BhYIT5LA2m.png",
+    "date": "2023/10/30",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/MediaPro-Case",
+    "link": "https://vladaleinikov.github.io/MediaPro-Case/",
+    "type": "Вёрстка",
+    "content": "<h3>Вторая страница:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Case.png'/></div>",
+    "projectEn":{
+          "title": "MediaPro Case",
+          "subtitle": "Order on the freelance exchange. Layout of the landing page of the second page using a photoshop layout",
+          "preview": "opera_BhYIT5LA2m.png",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/MediaPro-Case",
+          "link": "https://vladaleinikov.github.io/MediaPro-Case/",
+          "content": "<h3>Second page:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Case.png'/></div>"
+    }
+  },
+  {
+    "title": "MediaPro Mission",
+    "subtitle": "Заказ на фриланс бирже. Верстка лэндига 3 страницы по макету photoshop",
+    "technologies": ["html", "scss", "js", "php"],
+    "preview": "opera_BhYIT5LA2m.png",
+    "date": "2023/11/02",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/MediaPro-Mission",
+    "link": "https://vladaleinikov.github.io/MediaPro-Mission/",
+    "type": "Вёрстка",
+    "content": "<h3>Третья страница:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Mission.png'/></div>",
+    "projectEn":{
+          "title": "MediaPro Mission",
+          "subtitle": "Order on the freelance exchange. Layout of the landing page of the third page using a photoshop layout",
+          "preview": "opera_BhYIT5LA2m.png",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/MediaPro-Mission",
+          "link": "https://vladaleinikov.github.io/MediaPro-Mission/",
+          "content": "<h3>Third page:</h3><div class='content__img-container'><img src='/cv/assets/projects/MediaPro/MediaPro-Mission.png'/></div>"
+    }
+  },
+  {
+    "title": "LearnEnglish",
+    "subtitle": "Веб-приложение для изучения английского языка \"LearnEnglish\" для курсового проектаТехнологии: HTML, CSS, PHP, MySQL. Требования: Регистрация учеников и преподавателей; Тесты по английскому (тесты по грамматике, аудирование, чтение); Сохранение результатов тестирования",
+    "technologies": ["html", "css", "php"],
+    "preview": "f_65464fe060185302.jpg",
+    "date": "2021/04/10",
+    "figmaLink": "",
+    "GithubLink": "",
+    "link": "",
+    "type": "Веб-приложение",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-main.png'/></div><h3>Тесты:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-test.png'/></div><h3>Результаты:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-result.png'/></div><h3>Профиль:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-profile.png'/></div>",
+    "projectEn":{
+          "title": "LearnEnglish",
+          "subtitle": "Web application for learning English \"LearnEnglish\" for a course project Technologies: HTML, CSS, PHP, MySQL. Requirements: Registration of students and teachers; English tests (grammar tests, listening, reading); Saving test results",
+          "preview": "f_65464fe060185302.jpg",
+          "figmaLink": "",
+          "GithubLink": "",
+          "link": "",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-main.png'/></div><h3>Tests:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-test.png'/></div><h3>Results:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-result.png'/></div><h3>Profile:</h3><div class='content__img-container'><img src='/cv/assets/projects/LearnEnglish/LearnEnglish-profile.png'/></div>"
+    }
+  },
+  {
+    "title": "Aim-Game",
+    "subtitle": "Задание пятого дня марафона по JavaScript от Result School",
+    "technologies": ["html", "css", "js"],
+    "preview": "f_003651870cc53898.jpg",
+    "date": "2023/09/30",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/aim-game",
+    "link": "https://vladaleinikov.github.io/aim-game/",
+    "type": "Pet-проект",
+    "content": "<h3>Стартовый экран:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-main.png'/></div><h3>Выбор времени:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-time.png'/></div><h3>Игра:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game.png'/></div>",
+    "projectEn":{
+          "title": "Aim-Game",
+          "subtitle": "Task for the fifth day of the JavaScript marathon from Result School",
+          "preview": "f_003651870cc53898.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/aim-game",
+          "link": "https://vladaleinikov.github.io/aim-game/",
+          "content": "<h3>Start screen:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-main.png'/></div><h3>Choice of time:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game-time.png'/></div><h3>The game:</h3><div class='content__img-container'><img src='/cv/assets/projects/aim-game/aim-game.png'/></div>"
+    }
+  },
+  {
+    "title": "Слайдер картинок",
+    "subtitle": "Задание первого дня марафона по JavaScript от Result School",
+    "technologies": ["html", "css", "js"],
+    "preview": "f_30265168b4cd37b3.jpg",
+    "date": "2023/09/29",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/pictures-slider",
+    "link": "https://vladaleinikov.github.io/pictures-slider/",
+    "type": "Pet-проект",
+    "content": "<div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-2.png'/></div>",
+    "projectEn":{
+          "title": "Pictures slider",
+          "subtitle": "Assignment for the first day of the JavaScript marathon from Result School",
+          "preview": "f_30265168b4cd37b3.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/pictures-slider",
+          "link": "https://vladaleinikov.github.io/pictures-slider/",
+          "content": "<div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/pictures-slider/pictures-slider-2.png'/></div>"
+    }
+  },
+  {
+    "title": "Hacker News API",
+    "subtitle": "React-приложение по выводу новостей с помощью Hacker News API для практики в Modsen",
+    "technologies": ["react", "redux", "scss"],
+    "preview": "f_62964fdea82c5176.jpg",
+    "date": "2022/08/10",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/HackerNewsReact",
+    "link": "https://vladaleinikov.github.io/HackerNewsReact/",
+    "type": "Веб-приложение",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-main.png'/></div><h3>Новость:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-post.png'/></div>",
+    "projectEn":{
+          "title": "Hacker News API",
+          "subtitle": "React application for displaying news using Hacker News API for practice in Modsen",
+          "preview": "f_62964fdea82c5176.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/HackerNewsReact",
+          "link": "https://vladaleinikov.github.io/HackerNewsReact/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-main.png'/></div><h3>Post:</h3><div class='content__img-container'><img src='/cv/assets/projects/HackerNewsReact/HackerNewsReact-post.png'/></div>"
+    }
+  },
+  {
+    "title": "Google Books API",
+    "subtitle": "React-приложение для поиска книг с помощью Google Books API для практики в Modsen",
+    "technologies": ["react", "scss"],
+    "preview": "f_25064fde3479bc17.jpg",
+    "date": "2022/08/19",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/BookSearchReact",
+    "link": "https://vladaleinikov.github.io/BookSearchReact/",
+    "type": "Веб-приложение",
+    "content": "<h3>Главная:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-main.png'/></div><h3>Страница книги:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-book.png'/></div>",
+    "projectEn":{
+          "title": "Google Books API",
+          "subtitle": "React application for searching books using Google Books API for practice in Modsen",
+          "preview": "f_25064fde3479bc17.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/BookSearchReact",
+          "link": "https://vladaleinikov.github.io/BookSearchReact/",
+          "content": "<h3>Main:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-main.png'/></div><h3>Book page:</h3><div class='content__img-container'><img src='/cv/assets/projects/BookSearchReact/BookSearchReact-book.png'/></div>"
+    }
+  },
+  {
+    "title": "Пятнашки",
+    "subtitle": "Проект для практики в EPAM в 2021 году",
+    "technologies": ["scss", "js"],
+    "preview": "f_75464fc4ba15d502.jpg",
+    "date": "2021/07/11",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/tag",
+    "link": "https://vladaleinikov.github.io/tag/",
+    "type": "Pet-проект",
+    "content": "<h3>Игра:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-game.png'/></div><h3>Меню паузы:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pause.png'/></div><h3>Поле 8 на 8:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-8x8.png'/></div><h3>Поле с картинками:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pictures.png'/></div>",
+    "projectEn":{
+          "title": "Tags",
+          "subtitle": "Project for practice at EPAM in 2021",
+          "preview": "f_75464fc4ba15d502.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/tag",
+          "link": "https://vladaleinikov.github.io/tag/",
+          "content": "<h3>The game:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-game.png'/></div><h3>Pause menu:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pause.png'/></div><h3>Field 8 by 8:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-8x8.png'/></div><h3>Field with pictures:</h3><div class='content__img-container'><img src='/cv/assets/projects/tag/tag-pictures.png'/></div>"
+    }
+  },
+  {
+    "title": "Виртуальная клавиатура",
+    "subtitle": "Проект для RS School",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_39464fcca540a507.jpg",
+    "date": "2022/05/04",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/VirtualKeyboard",
+    "link": "https://vladaleinikov.github.io/VirtualKeyboard/virtualKeyboard/pages/",
+    "type": "Pet-проект",
+    "content": "<div class='content__img-container'><img src='/cv/assets/projects/virtualKeyboard/virtualKeyboard.png'/></div>",
+    "projectEn":{
+          "title": "Virtual keyboard",
+          "subtitle": "Project for RS School",
+          "preview": "f_39464fcca540a507.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/VirtualKeyboard",
+          "link": "https://vladaleinikov.github.io/VirtualKeyboard/virtualKeyboard/pages/",
+          "content": "<div class='content__img-container'><img src='/cv/assets/projects/virtualKeyboard/virtualKeyboard.png'/></div>"
+    }
+  },
+  {
+    "title": "Drag and Drop",
+    "subtitle": "Задание второго дня марафона по JavaScript от Result School",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_1626516f381866a1.jpg",
+    "date": "2023/09/29 ",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/daragAndDrop",
+    "link": "https://vladaleinikov.github.io/daragAndDrop/",
+    "type": "Pet-проект",
+    "content": "<div class='content__img-container'><img src='/cv/assets/projects/daragAndDrop/daragAndDrop.png'/></div>",
+    "projectEn":{
+          "title": "Drag and Drop",
+          "subtitle": "Assignment for the second day of the JavaScript marathon from Result School",
+          "preview": "f_1626516f381866a1.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/daragAndDrop",
+          "link": "https://vladaleinikov.github.io/daragAndDrop/",
+          "content": "<div class='content__img-container'><img src='/cv/assets/projects/daragAndDrop/daragAndDrop.png'/></div>"
+    }
+  },
+  {
+    "title": "Вертикальный слайдер",
+    "subtitle": "Задание третьего дня марафона по JavaScript от Result School",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_68465186f028bf8d.jpg",
+    "date": "2023/09/30 ",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/vertical-slider",
+    "link": "https://vladaleinikov.github.io/vertical-slider/",
+    "type": "Pet-проект",
+    "content": "<div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-2.png'/></div>",
+    "projectEn":{
+          "title": "Vertical slider",
+          "subtitle": "Assignment for the third day of the JavaScript marathon from Result School",
+          "preview": "f_68465186f028bf8d.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/vertical-slider",
+          "link": "https://vladaleinikov.github.io/vertical-slider/",
+          "content": "<div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-1.png'/></div><div class='content__img-container'><img src='/cv/assets/projects/vertical-slider/vertical-slider-2.png'/></div>"
+    }
+  },
+  {
+    "title": "Мини-игра",
+    "subtitle": "Задание четвертого дня марафона по JavaScript от Result School",
+    "technologies": ["html", "scss", "js"],
+    "preview": "f_36765186ff650fa4.jpg",
+    "date": "2023/09/30 ",
+    "figmaLink": "",
+    "GithubLink": "https://github.com/VladAleinikov/mini-game",
+    "link": "https://vladaleinikov.github.io/mini-game/",
+    "type": "Pet-проект",
+    "content": "<div class='content__img-container'><img src='/cv/assets/projects/mini-game/mini-game.png'/></div>",
+    "projectEn":{
+          "title": "Mini game",
+          "subtitle": "Assignment for the fourth day of the JavaScript marathon from Result School",
+          "preview": "f_36765186ff650fa4.jpg",
+          "figmaLink": "",
+          "GithubLink": "https://github.com/VladAleinikov/mini-game",
+          "link": "https://vladaleinikov.github.io/mini-game/",
+          "content": "<div class='content__img-container'><img src='/cv/assets/projects/mini-game/mini-game.png'/></div>"
+    }
+  }
 ]

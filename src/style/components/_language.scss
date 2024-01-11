@@ -1,0 +1,38 @@
+.language-change {
+      position: absolute;
+      right: 20px;
+      top: -5px;
+      @include flex();
+
+      .language-change__language {
+            cursor: pointer;
+            position: relative;
+            font-size: .8rem;
+            transition: 0.5s;
+            padding: 0 5px;
+
+            &:hover{
+                  color: $accent-2;
+            }
+            &::after{
+                  content: '';
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  width: 0;
+                  height: 2px;
+                  background: $accent-2;
+                  transition: .5s linear;
+            }
+            &.ru-language::after{
+                  left: unset;
+                  right: 0;
+            }
+            &.active{
+                  color: $accent-2;
+                  &::after{
+                        width: 100%;
+                  }
+            }
+      }
+}

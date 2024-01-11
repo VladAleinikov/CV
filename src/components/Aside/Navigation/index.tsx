@@ -1,5 +1,6 @@
 import React, { LegacyRef, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import { useWords } from "../../../hooks/words";
 declare module "react" {
   interface HTMLProps<T> {
     ref?: string;
@@ -7,7 +8,11 @@ declare module "react" {
 }
 
 const Navigation = () => {
-  const links= [
+  const words = useWords(
+    ["Обо мне", "Образование", "Навыки", "Проекты"],
+    ["About me", "Education", "Skills", "Projects"]
+  );
+  const links = [
     useRef<HTMLElement>(null),
     useRef<HTMLElement>(null),
     useRef<HTMLElement>(null),
@@ -59,7 +64,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/cv/about">Обо мне</Link>
+          <Link to="/cv/about">{words.next().value}</Link>
         </li>
         <li
           data-indexnum="1"
@@ -67,7 +72,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/cv/education">Образование</Link>
+          <Link to="/cv/education">{words.next().value}</Link>
         </li>
         <li
           data-indexnum="2"
@@ -75,7 +80,7 @@ const Navigation = () => {
           className="links__link"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/cv/skills">Навыки</Link>
+          <Link to="/cv/skills">{words.next().value}</Link>
         </li>
         <li
           data-indexnum="3"
@@ -83,7 +88,7 @@ const Navigation = () => {
           className="links__link active"
           onMouseEnter={linkHoverHandler}
         >
-          <Link to="/cv/projects">Проекты</Link>
+          <Link to="/cv/projects">{words.next().value}</Link>
         </li>
       </ul>
     </nav>

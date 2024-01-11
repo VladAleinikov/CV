@@ -10,6 +10,7 @@ interface ISelectProps {
   name: string;
   title: string;
   options: string[];
+  optionsVals: string[];
   currentVal: string;
   selectEvent(option: any): void;
 }
@@ -18,6 +19,7 @@ const SelectOne = ({
   name,
   title,
   options,
+  optionsVals,
   currentVal,
   selectEvent,
 }: ISelectProps) => {
@@ -34,7 +36,7 @@ const SelectOne = ({
         top: `${y - 30}px`,
       });
     });
-  }, [popover, invoker]);
+  }, [popover, invoker, title]);
   return (
     <div className="filter__select">
       <h4>{title}</h4>
@@ -43,10 +45,15 @@ const SelectOne = ({
         popovertarget={name + "__options"}
         ref={invoker}
       >
-        {currentVal}
+        {options[optionsVals.indexOf(currentVal)]}
       </button>
-      <div className="select__options" id={name + "__options"} popover="auto" ref={popover}>
-        {options.map((option, id) => (
+      <div
+        className="select__options"
+        id={name + "__options"}
+        popover="auto"
+        ref={popover}
+      >
+        {optionsVals.map((option, id) => (
           <button
             key={id}
             className={
@@ -54,7 +61,7 @@ const SelectOne = ({
             }
             onClick={() => selectEvent(option)}
           >
-            {option}
+            {options[id]}
           </button>
         ))}
       </div>

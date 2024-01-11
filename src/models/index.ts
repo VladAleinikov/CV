@@ -11,7 +11,17 @@ export interface IProject {
   link: string;
   type: "Всё" | "Верстка" | "Веб-приложение" | "Pet-проект" | string;
   content: string;
+  projectEn: IProjectEn;
 }
+export interface IProjectEn{
+    title: string;
+    subtitle: string;
+    preview: string;
+    figmaLink: string;
+    GithubLink: string;
+    link: string;
+    content: string;
+  }
 export interface IIcon {
   css: ReactElement;
   js: ReactElement;
@@ -33,3 +43,6 @@ export type ProjectTypesType =
   | "Вёрстка"
   | "Веб-приложение"
   | "Pet-проект";
+export interface ILanguage {
+  language: "en" | "ru";
+}

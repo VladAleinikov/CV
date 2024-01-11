@@ -39,7 +39,8 @@ body.hide {
 }
 
 main {
-  max-width: 1400px;
+  position: relative;
+  max-width: 1700px;
   min-width: 100vh;
   height: 80vh;
   padding: 20px;
@@ -435,6 +436,47 @@ h4 {
 }
 .project-modal .project-modal__content .content__img-container.img-mobile {
   width: unset;
+}
+
+.language-change {
+  position: absolute;
+  right: 20px;
+  top: -5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: unset;
+}
+.language-change .language-change__language {
+  cursor: pointer;
+  position: relative;
+  font-size: 0.8rem;
+  transition: 0.5s;
+  padding: 0 5px;
+}
+.language-change .language-change__language:hover {
+  color: #e85a4f;
+}
+.language-change .language-change__language::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e85a4f;
+  transition: 0.5s linear;
+}
+.language-change .language-change__language.ru-language::after {
+  left: unset;
+  right: 0;
+}
+.language-change .language-change__language.active {
+  color: #e85a4f;
+}
+.language-change .language-change__language.active::after {
+  width: 100%;
 }
 
 .aside {

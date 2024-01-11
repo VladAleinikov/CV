@@ -1,8 +1,8 @@
+import { useWords } from "../../../hooks/words";
 
 const Logo = () => {
-  return (
-    <h1 className='aside__logo'>Алейников Влад</h1>
-  )
-}
+  const words = useWords(["Алейников Влад"], ["Vlad Aleynikov"]);
+  return <h1 className="aside__logo">{words.next().value}</h1>;
+};
 
-export default Logo
+export default Logo;

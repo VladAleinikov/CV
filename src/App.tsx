@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router';
 import { routes } from './routes/index';
 import Aside from './components/Aside';
 import NoMobilePage from './pages/NoMobilePage';
+import Language from './components/Language';
 declare module "react" {
   interface HTMLAttributes<T> {
     popovertarget?: any;
@@ -22,6 +23,7 @@ function App() {
         {routes.map((route, id) =>
           <Route key={id} path={route.path} element={route.element} />)}
       </Routes>
+      <Language/>
     </main>
   )
 }
