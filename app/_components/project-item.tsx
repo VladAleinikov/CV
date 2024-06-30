@@ -1,68 +1,100 @@
-import { PinContainer } from "@/components/ui/3d-pin";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { ProjectType } from "@/types";
 import { FaLocationArrow } from "react-icons/fa6";
 
-interface ProjectItemProps {
-  id: number;
-  title: string;
-  description: string;
-  img: string;
-  iconLists: string[];
-  link: string;
-}
-
 export const ProjectItem = ({
-  id,
   title,
   description,
   img,
   iconLists,
+  date,
   link,
-}: ProjectItemProps) => {
-  const links = [
-    {
-      title: "Github",
-      href: "ggg",
-    },
-    {
-      title: "Preview",
-      href: "ggg",
-    },
-  ];
+  figmaLink,
+  githubLink,
+}: ProjectType) => {
+  const links = [];
+
+  if (link) links.push({ title: "Preview", href: link });
+  if (githubLink) links.push({ title: "Github", href: githubLink });
+  if (figmaLink) links.push({ title: "Figma", href: figmaLink });
+
   return (
-    <div className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
-      <PinContainer links={links}>
-        <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-          <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-            <img src="/bg.png" alt="bg-img" />
+    <CardContainer className="inter-var">
+      <CardBody className="relative group/card  dark:hover:shadow-2xl dark:hover:shadow-purple/[0.1]  dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardItem translateZ="50" className="w-full flex justify-between">
+          <div className="flex flex-col gap-y-1">
+            <h2 className="text-xl font-bold text-neutral-600 dark:text-white">
+              {title}
+            </h2>
+            <p className="text-neutral-700 text-xs max-w-sm mt-2 dark:text-neutral-500">
+              {date}
+            </p>
           </div>
-          <img src={img} alt={title} className="z-10 absolute bottom-0" />
-          <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-            {title}
-          </h1>
-          <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
-            {description}
-          </p>
-        </div>
-        <div className="flex items-center justify-between mt-7 mb-3">
-          <div className="flex items-center">
+          <div className="min-w-[25%] flex justify-end gap-x-2">
+            {githubLink && (
+              <a
+                href={githubLink}
+                className="border border-purple rounded-full  lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center"
+              >
+                <img src={"/icons/git.svg"} alt="git" className="p-2" />
+              </a>
+            )}
+            {figmaLink && (
+              <a
+                href={figmaLink}
+                className="border border-purple rounded-full  lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center"
+              >
+                <img src={"/icons/figma.svg"} alt="git" className="p-2" />
+              </a>
+            )}
+          </div>
+        </CardItem>
+
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        >
+          {description}
+        </CardItem>
+        <CardItem translateZ="100" className="w-full mt-4">
+          <img
+            src={"/previews/" + img}
+            alt={title}
+            className="object-cover rounded-xl  w-[32rem] h-[18rem]"
+          />
+        </CardItem>
+        <div className="flex justify-between items-center mt-20">
+          <CardItem translateZ={50} className="flex items-center">
             {iconLists.map((icon, index) => (
               <div
                 key={icon}
                 className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center"
                 style={{ transform: `translateX(-${5 * index * 2}px)` }}
               >
-                <img src={icon} alt="icon" className="p-2" />
+                <img
+                  src={"/icons/" + icon + ".svg"}
+                  alt={icon}
+                  className="p-2"
+                />
               </div>
             ))}
-          </div>
-          <div className="flex justify-center items-center">
-            <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-              Check Live Site
-            </p>
-            <FaLocationArrow className="ms-3" color="#CBACF9" />
-          </div>
+          </CardItem>
+          {link && (
+            <CardItem
+              translateZ={20}
+              as="a"
+              href={link}
+              className="flex justify-center items-center border-b border-purple"
+            >
+              <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                Check Live Site
+              </p>
+              <FaLocationArrow className="ms-3" color="#CBACF9" />
+            </CardItem>
+          )}
         </div>
-      </PinContainer>
-    </div>
+      </CardBody>
+    </CardContainer>
   );
 };

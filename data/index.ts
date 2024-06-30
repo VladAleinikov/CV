@@ -1,7 +1,9 @@
+import { ProjectType } from "@/types";
+
 type NavItemType = {
-  name: string,
-  link: string
-}
+  name: string;
+  link: string;
+};
 
 export const navItems: NavItemType[] = [
   { name: "About", link: "#about" },
@@ -10,50 +12,273 @@ export const navItems: NavItemType[] = [
   { name: "Contact", link: "#contact" },
 ];
 
-type ProjectType = {
-  id: number;
-  title: string;
-  description: string;
-  img: string;
-  iconLists: string[];
-  link: string;
-};
+
 
 export const projects: ProjectType[] = [
   {
-    id: 1,
-    title: "3D Solar System Planets to Explore",
+    id: 24,
+    title: "Revo",
     description:
-      "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+      "Landing page layout based on Figma layout with adaptability for mobile devices",
+    iconLists: ["html", "scss", "js"],
+    img: "p1.svg",
+    date: "2023/10/12 ",
+    figmaLink:
+      "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+    githubLink: "https://github.com/VladAleinikov/Revo",
+    link: "https://vladaleinikov.github.io/Revo/",
   },
   {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
+    id: 23,
+    title: "Pine-Hills-Architect",
     description:
-      "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+      "Order on the freelance exchange. Landing page layout based on Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "opera_78bXa8w23a.png",
+    date: "2023/11/08",
+    figmaLink:
+      "https://www.figma.com/file/1QRlDsy0F8h9LKYAoPqEYn/Untitled-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",
+    githubLink: "https://github.com/VladAleinikov/Pine-Hills-Architect",
+    link: "https://vladaleinikov.github.io/Pine-Hills-Architect/",
   },
   {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
+    id: 22,
+    title: "Aveji",
     description:
-      "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+      "Landing page layout based on Figma layout with adaptability for mobile devices",
+    iconLists: ["html", "scss", "js"],
+    img: "f_660651c55e4e5672.jpg",
+    date: "2023/10/03",
+    figmaLink:
+      "https://www.figma.com/file/2w4TN1cuI7w1QUxLhUIrgY/Aveji-(Copy)?type=design&node-id=0-1&mode=design&t=8yd0r2IX5z1Ew65D-0",
+    githubLink: "https://github.com/VladAleinikov/Aveji",
+    link: "https://vladaleinikov.github.io/Aveji/",
+  },
+  {
+    id: 21,
+    title: "DIA-cleaning",
+    description:
+      "Order on the freelance exchange. Layout of a multi-page website using Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "opera_pAcZTMpCgG.png",
+    date: "2023/11/28",
+    figmaLink:
+      "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+    githubLink: "https://github.com/VladAleinikov/DIA-cleaning",
+    link: "https://vladaleinikov.github.io/DIA-cleaning/pages/",
+  },
+  {
+    id: 20,
+    title: "CreateX",
+    description: "Layout of a multi-page website using Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "f_3276515ebcbabeec.jpg",
+    date: "2023/09/29",
+    figmaLink:
+      "https://www.figma.com/file/ePs2uIoWq278CyrT3q6c57/YouTube-Createx-Marathon?type=design&node-id=0-1&mode=design&t=GRQ9VmvMh0oR6x75-0",
+    githubLink: "https://github.com/VladAleinikov/createx-construction",
+    link: "https://vladaleinikov.github.io/createx-construction/pages/",
+  },
+  {
+    id: 19,
+    title: "GitHubAPI",
+    description: "Project using github API",
+    iconLists: ["typescript", "react", "redux"],
+    img: "opera_ANM5BDhflP.png",
+    date: "2023/11/13",
+    githubLink: "https://github.com/VladAleinikov/GitHubAPI",
+    link: "https://vladaleinikov.github.io/GitHubAPI/",
+  },
+  {
+    id: 18,
+    title: "Pets shelter",
+    description:
+      "Landing page layout based on Figma layout with adaptability for mobile devices",
+    iconLists: ["html", "css", "js"],
+    img: "f_90164fc55e6e2926.jpg",
+    date: "2022/04/09",
+    figmaLink:
+      "https://www.figma.com/file/6z3i7tRr2L9WF3MuSj2iDf/shelter-dom-(Copy)?type=design&t=ZAzlXTWMKcCcEq20-6",
+    githubLink: "https://github.com/VladAleinikov/pets-shelter",
+    link: "https://vladaleinikov.github.io/pets-shelter/pages/main/",
+  },
+  {
+    id: 17,
+    title: "RumTibet",
+    description: "Landing page layout based on Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "f_19465269ebb0efb7.jpg",
+    date: "2023/10/02",
+    figmaLink:
+      "https://www.figma.com/file/b93J9uGUhgfaGWm6QmLCG4/%D0%A0%D1%83%D0%BC%D0%A2%D0%B8%D0%B1%D0%B5%D1%82-(Copy)?type=design&node-id=0%3A1&mode=design&t=i4ty5mtVS7GkCr0z-1",
+    githubLink: "https://github.com/VladAleinikov/RumTibet",
+    link: "https://vladaleinikov.github.io/RumTibet/",
+  },
+  {
+    id: 16,
+    title: "Ujjo",
+    description: "Layout of a one-page landing page using Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "f_07364ff3b22222a2.jpg",
+    date: "2023/09/11",
+    figmaLink:
+      "https://www.figma.com/file/FmqRYj13B2YLh9Lpe5IixA/Ujjo-(Copy)?type=design&node-id=0-1&mode=design&t=30mpzRjePuo0zjsI-0",
+    githubLink: "https://github.com/VladAleinikov/Ujjo",
+    link: "https://vladaleinikov.github.io/Ujjo/",
+  },
+  {
+    id: 15,
+    title: "OFFICE-COMFORT-A",
+    description:
+      "Order on the freelance exchange. Layout of a multi-page landing page using Figma layout",
+    iconLists: ["html", "scss", "js"],
+    img: "f_130653e9ea8e64d3.jpg",
+    date: "2023/10/29",
+    figmaLink:
+      "https://www.figma.com/file/bBJZOy4zoo6TrjKoHvwRzU/%D0%9E%D1%84%D0%B8%D1%81-%D0%BA%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82---%D0%90-(Copy)?type=design&node-id=0%3A1&mode=design&t=c86Sy1c87ondRrbq-1",
+    githubLink: "https://github.com/VladAleinikov/Ofiskomfort-a",
+    link: "https://vladaleinikov.github.io/Ofiskomfort-a/",
+  },
+  {
+    id: 14,
+    title: "BalkariA-frame",
+    description: "Order on the freelance exchange. Landing page layout",
+    iconLists: ["html", "scss", "js"],
+    img: "opera_3nSHpBKotJ.png",
+    date: "2023/10/19",
+    githubLink: "https://github.com/VladAleinikov/BalkariA-frame",
+    link: "https://vladaleinikov.github.io/BalkariA-frame/",
+  },
+  {
+    id: 13,
+    title: "MediaPro",
+    description:
+      "Order on the freelance exchange. Landing page layout based on photoshop layout",
+    iconLists: ["html", "scss", "js", "php"],
+    img: "opera_BhYIT5LA2m.png",
+    date: "2023/10/29",
+    githubLink: "https://github.com/VladAleinikov/MediaPro",
+    link: "https://vladaleinikov.github.io/MediaPro/",
+  },
+  {
+    id: 12,
+    title: "MediaPro Case",
+    description:
+      "Order on the freelance exchange. Layout of the landing page of the second page using a photoshop layout",
+    iconLists: ["html", "scss", "js", "php"],
+    img: "opera_BhYIT5LA2m.png",
+    date: "2023/10/30",
+    githubLink: "https://github.com/VladAleinikov/MediaPro-Case",
+    link: "https://vladaleinikov.github.io/MediaPro-Case/",
+  },
+  {
+    id: 11,
+    title: "MediaPro Mission",
+    description:
+      "Order on the freelance exchange. Layout of the landing page of the third page using a photoshop layout",
+    iconLists: ["html", "scss", "js", "php"],
+    img: "opera_BhYIT5LA2m.png",
+    date: "2023/11/02",
+    githubLink: "https://github.com/VladAleinikov/MediaPro-Mission",
+    link: "https://vladaleinikov.github.io/MediaPro-Mission/",
+  },
+  {
+    id: 9,
+    title: "Aim-Game",
+    description:
+      "Task for the fifth day of the JavaScript marathon from Result School",
+    iconLists: ["html", "css", "js"],
+    img: "f_003651870cc53898.jpg",
+    date: "2023/09/30",
+    figmaLink: "",
+    githubLink: "https://github.com/VladAleinikov/aim-game",
+    link: "https://vladaleinikov.github.io/aim-game/",
+  },
+  {
+    id: 8,
+    title: "Pictures slider",
+    description:
+      "Assignment for the first day of the JavaScript marathon from Result School",
+    iconLists: ["html", "css", "js"],
+    img: "f_30265168b4cd37b3.jpg",
+    date: "2023/09/29",
+    githubLink: "https://github.com/VladAleinikov/pictures-slider",
+    link: "https://vladaleinikov.github.io/pictures-slider/",
+  },
+  {
+    id: 7,
+    title: "Hacker News API",
+    description:
+      "React application for displaying news using Hacker News API for practice in Modsen",
+    iconLists: ["react", "redux", "scss"],
+    img: "f_62964fdea82c5176.jpg",
+    date: "2022/08/10",
+    githubLink: "https://github.com/VladAleinikov/HackerNewsReact",
+    link: "https://vladaleinikov.github.io/HackerNewsReact/",
+  },
+  {
+    id: 6,
+    title: "Google Books API",
+    description:
+      "React application for searching books using Google Books API for practice in Modsen",
+    iconLists: ["react", "scss"],
+    img: "f_25064fde3479bc17.jpg",
+    date: "2022/08/19",
+    githubLink: "https://github.com/VladAleinikov/BookSearchReact",
+    link: "https://vladaleinikov.github.io/BookSearchReact/",
+  },
+  {
+    id: 5,
+    title: "Tags",
+    description: "Project for practice at EPAM in 2021",
+    iconLists: ["scss", "js"],
+    img: "f_75464fc4ba15d502.jpg",
+    date: "2021/07/11",
+    githubLink: "https://github.com/VladAleinikov/tag",
+    link: "https://vladaleinikov.github.io/tag/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Virtual keyboard",
+    description: "Project for RS School",
+    iconLists: ["html", "scss", "js"],
+    img: "f_39464fcca540a507.jpg",
+    date: "2022/05/04",
+    githubLink: "https://github.com/VladAleinikov/VirtualKeyboard",
+    link: "https://vladaleinikov.github.io/VirtualKeyboard/virtualKeyboard/pages/",
+  },
+  {
+    id: 3,
+    title: "Drag and Drop",
     description:
-      "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+      "Assignment for the second day of the JavaScript marathon from Result School",
+    iconLists: ["html", "scss", "js"],
+    img: "f_1626516f381866a1.jpg",
+    date: "2023/09/29 ",
+    githubLink: "https://github.com/VladAleinikov/daragAndDrop",
+    link: "https://vladaleinikov.github.io/daragAndDrop/",
+
+  },
+  {
+    id: 2,
+    title: "Vertical slider",
+    description:
+      "Assignment for the third day of the JavaScript marathon from Result School",
+    iconLists: ["html", "scss", "js"],
+    img: "f_68465186f028bf8d.jpg",
+    date: "2023/09/30 ",
+    githubLink: "https://github.com/VladAleinikov/vertical-slider",
+    link: "https://vladaleinikov.github.io/vertical-slider/",
+  },
+  {
+    id: 1,
+    title: "Mini game",
+    description:
+      "Assignment for the fourth day of the JavaScript marathon from Result School",
+    iconLists: ["html", "scss", "js"],
+    img: "f_36765186ff650fa4.jpg",
+    date: "2023/09/30 ",
+    githubLink: "https://github.com/VladAleinikov/mini-game",
+    link: "https://vladaleinikov.github.io/mini-game/",
   },
 ];
