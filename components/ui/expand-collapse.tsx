@@ -15,11 +15,13 @@ export const ExpandCollapse = ({ children }: ExpandCollapseProps) => {
   }
 
   return (
-    <div className="relative my-6 overflow-hidden">
+    <div className="relative my-6 overflow-hidden h-full">
       <div
         className={cn(
-          "w-full h-12 flex items-center justify-center p-2 bg-gradient-to-t from-black-100 ",
-          isCollapsed ? "absolute bottom-0" : "sticky top-10 "
+          "w-full h-12 flex items-center justify-center p-2 z-10",
+          isCollapsed
+            ? "absolute bottom-0 bg-gradient-to-t from-black-100"
+            : "sticky bottom-10"
         )}
       >
         <button
@@ -29,7 +31,7 @@ export const ExpandCollapse = ({ children }: ExpandCollapseProps) => {
           {isCollapsed ? "Expand" : "Collapse"}
         </button>
       </div>
-      <div className={cn("overflow-hidden", isCollapsed && " max-h-[200vh]")}>
+      <div className={cn("", isCollapsed && " max-h-[200vh]")}>
         {children}
       </div>
     </div>
