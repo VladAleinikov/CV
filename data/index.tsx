@@ -1,4 +1,9 @@
 import { ProjectType } from "@/types";
+import { TechStack } from '../components/tech-stack';
+import { AboutMe } from "@/components/about-me";
+import { Language } from "@/components/language";
+import { Education } from "@/components/education";
+import { Contacts } from "@/components/contacts";
 
 type NavItemType = {
   name: string;
@@ -12,7 +17,87 @@ export const navItems: NavItemType[] = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const gridItems = [
+  {
+    id: 1,
+    title: "About me ",
+    description: "",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
+    imgClassName: "absolute right-0 -bottom-10 md:w-96 w-60",
+    titleClassName: "justify-start",
+    img: "b5.svg",
+    spareImg: "",
+    content: <AboutMe/>
+  },
+  {
+    id: 2,
+    title: "Languages",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start items-end",
+    img: "",
+    spareImg: "",
+    content: <Language/>
+  },
+  {
+    id: 3,
+    title: "My tech stack",
+    description: "I constantly try to improve",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+    content: <TechStack/>
+  },
+  {
+    id: 4,
+    title: "Education",
+    description: "",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+    content: <Education/>
+  },
+  {
+    id: 5,
+    title: "My contacts",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+    content: <Contacts/>
+  },
+];
 
+type LanguageType= {
+  language: string,
+  level: string
+}
+
+export const languages: LanguageType[] = [
+  {
+    language: "Russian",
+    level: "Native",
+  },
+  {
+    language: "English",
+    level: "B1",
+  },
+];
+
+export const education = [
+  {
+    education: "Bachelor of Software Engineer",
+    place: "Belurussian-Russian University",
+    period: "2019-2023"
+  }
+]
 
 export const projects: ProjectType[] = [
   {
@@ -257,7 +342,6 @@ export const projects: ProjectType[] = [
     date: "2023/09/29 ",
     githubLink: "https://github.com/VladAleinikov/daragAndDrop",
     link: "https://vladaleinikov.github.io/daragAndDrop/",
-
   },
   {
     id: 2,
