@@ -1,5 +1,5 @@
 import { ProjectType } from "@/types";
-import { TechStack } from '../components/tech-stack';
+import { TechStack } from "../components/tech-stack";
 import { AboutMe } from "@/components/about-me";
 import { Language } from "@/components/language";
 import { Education } from "@/components/education";
@@ -74,12 +74,7 @@ export const gridItems = [
   },
 ];
 
-type LanguageType= {
-  language: string,
-  level: string
-}
-
-export const languages: LanguageType[] = [
+export const languages = [
   {
     language: "Russian",
     level: "Native",
@@ -94,9 +89,70 @@ export const education = [
   {
     education: "Bachelor of Software Engineer",
     place: "Belurussian-Russian University",
-    period: "2019-2023"
-  }
-]
+    period: "2019-2023",
+  },
+];
+
+export const experience = [
+  {
+    date: "Feb 2023 - present",
+    role: "Software Engeneer",
+    company: "Mogilev News",
+    description: (
+      <>
+        <p>
+          Work in team with 4 people. Development of commercial and internal
+          full-stack applications, such as:
+        </p>
+        <ul>
+          <li>- Web application of the information department MV-Develop;</li>
+          <li>
+            - Theme on CMS Wordpress for the websites of editorial offices of
+            the Mogilev region;
+          </li>
+          <li>- Design and development for the MogilevNews website</li>
+          <li>
+            - And also some internal projects and education of new technologies
+          </li>
+        </ul>
+      </>
+    ),
+    technologies: [
+      "React",
+      "TypeScript",
+      "Scss",
+      "Nest",
+      "PHP",
+      "Wordpress",
+      "MySQL",
+      "PostgreSQL",
+      "Git",
+    ],
+  },
+  {
+    date: "Sep 2023 - Jan 2024",
+    role: "Frontend Engineer",
+    company: "Freelance FL.ru",
+    description: (
+      <>
+        <p>Part-time work in my free time.</p>
+        <p>
+          Worked with HTML and CSS to create and design web pages according to
+          design layouts.
+        </p>
+        <p>
+          Created website layout using JS, CSS and HTML, PHP. Worked on
+          adaptation for mobile devices.
+        </p>
+        <p>
+          Performed processing related tasksgraphic materials, including working
+          with programs such as Photoshop, Figma and others graphic editors.
+        </p>
+      </>
+    ),
+    technologies: ["HTML", "JavaScript", "Scss", "PHP", "Figma"],
+  },
+];
 
 export const projects: ProjectType[] = [
   {
