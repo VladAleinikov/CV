@@ -13,8 +13,7 @@ type NavItemType = {
 export const navItems: NavItemType[] = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Experience", link: "#experience" },
 ];
 
 export const gridItems = [
@@ -22,12 +21,12 @@ export const gridItems = [
     id: 1,
     title: "About me ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
-    imgClassName: "absolute right-0 -bottom-10 md:w-96 w-60",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-2",
+    imgClassName: "absolute right-0 -bottom-10 md:w-96 w-60 md:block hidden",
     titleClassName: "justify-start",
     img: "b5.svg",
     spareImg: "",
-    content: <AboutMe/>
+    content: <AboutMe />,
   },
   {
     id: 2,
@@ -38,7 +37,7 @@ export const gridItems = [
     titleClassName: "justify-start items-end",
     img: "",
     spareImg: "",
-    content: <Language/>
+    content: <Language />,
   },
   {
     id: 3,
@@ -49,7 +48,7 @@ export const gridItems = [
     titleClassName: "justify-center",
     img: "",
     spareImg: "",
-    content: <TechStack/>
+    content: <TechStack />,
   },
   {
     id: 4,
@@ -60,7 +59,7 @@ export const gridItems = [
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
-    content: <Education/>
+    content: <Education />,
   },
   {
     id: 5,
@@ -68,10 +67,10 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    titleClassName: "justify-center md:max-w-full max-w-60 mx-auto text-center",
     img: "",
     spareImg: "",
-    content: <Contacts/>
+    content: <Contacts />,
   },
 ];
 

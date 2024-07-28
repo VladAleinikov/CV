@@ -1,39 +1,40 @@
-"use client"
+"use client";
 
 import { cn } from "@/utils/cn";
-import { useState } from "react"
+import { useState } from "react";
+import { Button } from "./button";
+import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 
-interface ExpandCollapseProps{
-  children: React.ReactNode
+interface ExpandCollapseProps {
+  children: React.ReactNode;
 }
 
 export const ExpandCollapse = ({ children }: ExpandCollapseProps) => {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const onClickHandler = () => {
-    setIsCollapsed(prev => !prev);
-  }
+    setIsCollapsed((prev) => !prev);
+  };
 
   return (
     <div className="relative my-6 overflow-hidden h-full">
       <div
         className={cn(
-          "w-full h-12 flex items-center justify-center p-2 z-10",
+          "w-full h-15 flex items-center justify-center p-2 z-10",
           isCollapsed
             ? "absolute bottom-0 bg-gradient-to-t from-black-100"
             : "sticky bottom-10"
         )}
       >
-        <button
-          className="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-2 h-8 text-xs"
+        <Button
+          title={isCollapsed ? "Expand" : "Collapse"}
+          icon={isCollapsed ? <BsArrowDown/> : <BsArrowUp/>}
+          position="left"
+          otherClasses="`bg-[#161a31]"
           onClick={onClickHandler}
-        >
-          {isCollapsed ? "Expand" : "Collapse"}
-        </button>
+        ></Button>
       </div>
-      <div className={cn("", isCollapsed && " max-h-[200vh]")}>
-        {children}
-      </div>
+      <div className={cn("", isCollapsed && " max-h-[200vh]")}>{children}</div>
     </div>
   );
 };

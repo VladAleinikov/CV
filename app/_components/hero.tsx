@@ -30,7 +30,7 @@ export const Hero = () => {
             words="Hello, my name is Vlad, and this is My Portfolio App"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            This site was developped with Next.js
+            This site was developed with Next.js
           </p>
 
           <a href="#about">
