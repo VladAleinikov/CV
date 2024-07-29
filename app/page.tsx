@@ -4,18 +4,18 @@ import { RecentProjects } from "./_components/recent-projects";
 import { navItems } from "@/data";
 import { Grid } from "./_components/grid";
 import { Experience } from "./_components/experience";
+import { Footer } from "./_components/footer";
 
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        <FloatingNav
-        navItems={navItems}
-        />
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        <Experience/>
-        <RecentProjects/>
+        <Experience />
+        <RecentProjects />
+        <Footer />
       </div>
     </main>
   );
