@@ -4,6 +4,8 @@ import { AboutMe } from "@/components/about-me";
 import { Language } from "@/components/language";
 import { Education } from "@/components/education";
 import { Contacts } from "@/components/contacts";
+import { FaEnvelope, FaGithub, FaTelegram } from "react-icons/fa6";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 
 type NavItemType = {
   name: string;
@@ -420,5 +422,24 @@ export const projects: ProjectType[] = [
     date: "2023/09/30 ",
     githubLink: "https://github.com/VladAleinikov/mini-game",
     link: "https://vladaleinikov.github.io/mini-game/",
+  },
+];
+
+export const contacts = [
+  {
+    icon: <FaTelegram className="lg:w-10 lg:h-10 w-8 h-8" />,
+    href: "https://t.me/Aleynikov_Vlad",
+  },
+  {
+    icon: <FaEnvelope className="lg:w-10 lg:h-10 w-8 h-8" />,
+    href: "mailto:vlad.a.aleynikov@gmail.com",
+  },
+  {
+    icon: <FaPhoneSquareAlt className="lg:w-10 lg:h-10 w-8 h-8" />,
+    href: "tel:+375447953134",
+  },
+  {
+    icon: <FaGithub className="lg:w-10 lg:h-10 w-8 h-8" />,
+    href: "https://github.com/VladAleinikov",
   },
 ];

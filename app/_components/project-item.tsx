@@ -34,6 +34,7 @@ export const ProjectItem = ({
             {githubLink && (
               <a
                 href={githubLink}
+                target="blank"
                 className="border border-purple rounded-full  lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center"
               >
                 <img src={"/icons/git.svg"} alt="git" className="p-2" />
@@ -42,6 +43,7 @@ export const ProjectItem = ({
             {figmaLink && (
               <a
                 href={figmaLink}
+                target="blank"
                 className="border border-purple rounded-full  lg:w-10 lg:h-10 w-8 h-8 flex items-center justify-center"
               >
                 <img src={"/icons/figma.svg"} alt="git" className="p-2" />
@@ -84,6 +86,7 @@ export const ProjectItem = ({
             <CardItem
               translateZ={20}
               as="a"
+              target="blank"
               href={link}
               className="flex justify-center items-center border-b border-purple"
             >
