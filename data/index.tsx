@@ -159,12 +159,70 @@ export const experience = [
 
 export const projects: ProjectType[] = [
   {
+    id: 29,
+    title: "E-Commerce",
+    description:
+      "A fully functional E-Commerce with Admin Dashboard with seamless navigation and user experience.",
+    iconLists: ["next", "typescript", "tailwind", "prisma", "clerk"],
+    img: "g728gb9888sanjo123hk.jpg",
+    date: "2024/05/22",
+    githubLink: "https://github.com/VladAleinikov/e-commerce",
+  },
+  {
+    id: 28,
+    title: "Jotion",
+    description:
+      "A note editor, with style editor, cover images, nested documents and publishing documents.",
+    iconLists: ["next", "typescript", "tailwind", "clerk", "convex"],
+    img: "yfvyasd87b2vjw3.jpg",
+    date: "2024/05/22",
+    githubLink: "https://github.com/VladAleinikov/jotion",
+    link: "https://note-app-delta-one.vercel.app/",
+  },
+  {
+    id: 27,
+    title: "Canva",
+    description:
+      "A collaborative, real-time whiteboard. Packed with features such as real-time database, whiteboard from scratch with ability to add shapes like Rectangles and Ellipses, Sticky notes and Pencil drawing.",
+    iconLists: [
+      "next",
+      "typescript",
+      "tailwind",
+      "clerk",
+      "convex",
+      "liveblocks",
+    ],
+    img: "y7ui8812niwnoi9.jpg",
+    date: "2024/04/29",
+    githubLink: "https://github.com/VladAleinikov/canva",
+  },
+  {
+    id: 26,
+    title: "Task manager",
+    description:
+      "A fullstack web application to manage your work, all with workspaces, boards, lists, cards, audit logs / activity as well as member roles",
+    iconLists: ["next", "typescript", "prisma", "tailwind", "clerk"],
+    img: "8sd5xccz68wqsf113.jpg",
+    date: "2024/04/23",
+    githubLink: "https://github.com/VladAleinikov/task-manager",
+  },
+  {
+    id: 25,
+    title: "Music player",
+    description:
+      "My first Next+Nest project. A small app, wich allow you to play, save and upload music",
+    iconLists: ["next", "nest", "typescript", "tailwind"],
+    img: "saf8n12i3ngsml.jpg",
+    date: "2024/04/11",
+    githubLink: "https://github.com/VladAleinikov/NextJS-first-project",
+  },
+  {
     id: 24,
     title: "Revo",
     description:
       "Landing page layout based on Figma layout with adaptability for mobile devices",
     iconLists: ["html", "scss", "js"],
-    img: "p1.svg",
+    img: "bi1hhu24ysar5.jpg",
     date: "2023/10/12 ",
     figmaLink:
       "https://www.figma.com/file/DC0dmWja7xLsExVR0HpxfJ/Revo-(Copy)?type=design&t=EKGEDy47C35dtA2n-6",

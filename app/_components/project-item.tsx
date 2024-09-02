@@ -1,5 +1,6 @@
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import { ProjectType } from "@/types";
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export const ProjectItem = ({
@@ -59,11 +60,12 @@ export const ProjectItem = ({
         >
           {description}
         </CardItem>
-        <CardItem translateZ="100" className="w-full mt-4">
-          <img
+        <CardItem translateZ="100" className="w-full mt-4  w-[27rem] h-[15.2rem]">
+          <Image
+            fill
             src={"/previews/" + img}
             alt={title}
-            className="object-cover rounded-xl  w-[32rem] h-[18rem]"
+            className="object-cover rounded-xl"
           />
         </CardItem>
         <div className="flex justify-between items-center mt-20">
